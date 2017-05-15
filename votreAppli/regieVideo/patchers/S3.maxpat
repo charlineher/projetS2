@@ -9,7 +9,7 @@
 			"modernui" : 1
 		}
 ,
-		"rect" : [ 817.0, 283.0, 640.0, 480.0 ],
+		"rect" : [ 376.0, 249.0, 869.0, 521.0 ],
 		"bglocked" : 0,
 		"openinpresentation" : 0,
 		"default_fontsize" : 12.0,
@@ -263,37 +263,37 @@
 			}
  ],
 		"parameters" : 		{
-			"obj-2::obj-16" : [ "flonum[1]", "flonum[1]", 0 ],
-			"obj-2::obj-13" : [ "flonum", "flonum", 0 ]
+			"obj-2::obj-13" : [ "flonum", "flonum", 0 ],
+			"obj-2::obj-16" : [ "flonum[1]", "flonum[1]", 0 ]
 		}
 ,
 		"dependency_cache" : [ 			{
 				"name" : "lectureVideo.maxpat",
-				"bootpath" : "~/Documents/projetS2/votreAppli/regieVideo/patchers",
+				"bootpath" : "/Volumes/i162512/Video - copie/patchers",
 				"type" : "JSON",
 				"implicit" : 1
 			}
 , 			{
 				"name" : "detectionEnveloppe.maxpat",
-				"bootpath" : "~/Documents/projetS2/votreAppli/regieVideo/patchers",
+				"bootpath" : "/Volumes/i162512/Video - copie/patchers",
 				"type" : "JSON",
 				"implicit" : 1
 			}
 , 			{
 				"name" : "receptionAudioReseau.maxpat",
-				"bootpath" : "~/Documents/projetS2/votreAppli/regieVideo/patchers",
+				"bootpath" : "/Volumes/i162512/Video - copie/patchers",
 				"type" : "JSON",
 				"implicit" : 1
 			}
 , 			{
 				"name" : "effetDeplacement.maxpat",
-				"bootpath" : "~/Documents/projetS2/votreAppli/regieVideo/patchers",
+				"bootpath" : "/Volumes/i162512/Video - copie/patchers",
 				"type" : "JSON",
 				"implicit" : 1
 			}
 , 			{
 				"name" : "receptionOSC.maxpat",
-				"bootpath" : "~/Documents/projetS2/votreAppli/regieVideo/patchers",
+				"bootpath" : "/Volumes/i162512/Video - copie/patchers",
 				"type" : "JSON",
 				"implicit" : 1
 			}
