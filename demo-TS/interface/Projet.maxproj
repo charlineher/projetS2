@@ -1,32 +1,16 @@
 {
-	"name" : "regieAudio",
+	"name" : "Projet",
 	"version" : 1,
-	"creationdate" : -721514217,
-	"modificationdate" : -718235534,
-	"viewrect" : [ 1110.0, 146.0, 479.0, 624.0 ],
+	"creationdate" : -721511792,
+	"modificationdate" : -718233812,
+	"viewrect" : [ 1334.0, 196.0, 300.0, 500.0 ],
 	"autoorganize" : 1,
 	"hideprojectwindow" : 0,
 	"showdependencies" : 1,
 	"autolocalize" : 0,
 	"contents" : 	{
 		"patchers" : 		{
-			"monabstraction.maxpat" : 			{
-				"kind" : "patcher",
-				"local" : 1,
-				"toplevel" : 1
-			}
-,
-			"receptionOSC.maxpat" : 			{
-				"kind" : "patcher",
-				"local" : 1
-			}
-,
-			"main.maxpat" : 			{
-				"kind" : "patcher",
-				"local" : 1
-			}
-,
-			"lecteurAudio.maxpat" : 			{
+			"TS2.maxpat" : 			{
 				"kind" : "patcher",
 				"local" : 1
 			}
@@ -41,7 +25,17 @@
 				"local" : 1
 			}
 ,
-			"TS2.maxpat" : 			{
+			"envoiOSCRegieVideo.maxpat" : 			{
+				"kind" : "patcher",
+				"local" : 1
+			}
+,
+			"Main.maxpat" : 			{
+				"kind" : "patcher",
+				"local" : 1
+			}
+,
+			"envoiOSCRegieAudio.maxpat" : 			{
 				"kind" : "patcher",
 				"local" : 1
 			}
@@ -49,15 +43,6 @@
 		}
 ,
 		"media" : 		{
-			"141.wav" : 			{
-				"kind" : "audiofile",
-				"local" : 1
-			}
-,
-			"dinosaure.wav" : 			{
-				"kind" : "audiofile",
-				"local" : 1
-			}
 
 		}
 

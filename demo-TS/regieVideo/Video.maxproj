@@ -1,37 +1,27 @@
 {
-	"name" : "regieAudio",
+	"name" : "Video",
 	"version" : 1,
-	"creationdate" : -721514217,
-	"modificationdate" : -718235534,
-	"viewrect" : [ 1110.0, 146.0, 479.0, 624.0 ],
+	"creationdate" : -721513919,
+	"modificationdate" : -718233847,
+	"viewrect" : [ 16.0, 73.0, 300.0, 500.0 ],
 	"autoorganize" : 1,
 	"hideprojectwindow" : 0,
 	"showdependencies" : 1,
 	"autolocalize" : 0,
 	"contents" : 	{
 		"patchers" : 		{
-			"monabstraction.maxpat" : 			{
+			"S3.maxpat" : 			{
 				"kind" : "patcher",
 				"local" : 1,
 				"toplevel" : 1
 			}
 ,
-			"receptionOSC.maxpat" : 			{
+			"lectureVideo.maxpat" : 			{
 				"kind" : "patcher",
 				"local" : 1
 			}
 ,
-			"main.maxpat" : 			{
-				"kind" : "patcher",
-				"local" : 1
-			}
-,
-			"lecteurAudio.maxpat" : 			{
-				"kind" : "patcher",
-				"local" : 1
-			}
-,
-			"envoiAudioReseau.maxpat" : 			{
+			"detectionEnveloppe.maxpat" : 			{
 				"kind" : "patcher",
 				"local" : 1
 			}
@@ -41,7 +31,12 @@
 				"local" : 1
 			}
 ,
-			"TS2.maxpat" : 			{
+			"effetDeplacement.maxpat" : 			{
+				"kind" : "patcher",
+				"local" : 1
+			}
+,
+			"receptionOSC.maxpat" : 			{
 				"kind" : "patcher",
 				"local" : 1
 			}
@@ -49,13 +44,8 @@
 		}
 ,
 		"media" : 		{
-			"141.wav" : 			{
-				"kind" : "audiofile",
-				"local" : 1
-			}
-,
-			"dinosaure.wav" : 			{
-				"kind" : "audiofile",
+			"dinosaure.png" : 			{
+				"kind" : "imagefile",
 				"local" : 1
 			}
 
@@ -75,6 +65,5 @@
 	"amxdtype" : 1633771873,
 	"readonly" : 0,
 	"devpathtype" : 0,
-	"devpath" : ".",
-	"sortmode" : 0
+	"devpath" : "."
 }
