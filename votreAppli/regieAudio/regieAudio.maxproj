@@ -2,7 +2,7 @@
 	"name" : "regieAudio",
 	"version" : 1,
 	"creationdate" : -721919280,
-	"modificationdate" : -717261875,
+	"modificationdate" : -717198131,
 	"viewrect" : [ 390.0, 205.0, 300.0, 500.0 ],
 	"autoorganize" : 1,
 	"hideprojectwindow" : 0,
@@ -17,6 +17,41 @@
 			}
 ,
 			"lecteurAudio.maxpat" : 			{
+				"kind" : "patcher",
+				"local" : 1
+			}
+,
+			"syntheseFM.maxpat" : 			{
+				"kind" : "patcher",
+				"local" : 1
+			}
+,
+			"syntheseSoustractive.maxpat" : 			{
+				"kind" : "patcher",
+				"local" : 1
+			}
+,
+			"splitAccord.maxpat" : 			{
+				"kind" : "patcher",
+				"local" : 1
+			}
+,
+			"mainSyntheseAudio.maxpat" : 			{
+				"kind" : "patcher",
+				"local" : 1
+			}
+,
+			"osc.maxpat" : 			{
+				"kind" : "patcher",
+				"local" : 1
+			}
+,
+			"ADSR.maxpat" : 			{
+				"kind" : "patcher",
+				"local" : 1
+			}
+,
+			"filtrage.maxpat" : 			{
 				"kind" : "patcher",
 				"local" : 1
 			}
