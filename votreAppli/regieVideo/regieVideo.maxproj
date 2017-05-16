@@ -1,8 +1,8 @@
 {
 	"name" : "regieVideo",
 	"version" : 1,
-	"creationdate" : 3573048050,
-	"modificationdate" : 3573048054,
+	"creationdate" : -721919246,
+	"modificationdate" : -717260212,
 	"viewrect" : [ 25.0, 70.0, 300.0, 500.0 ],
 	"autoorganize" : 1,
 	"hideprojectwindow" : 0,
@@ -15,6 +15,33 @@
 				"local" : 1,
 				"toplevel" : 1
 			}
+
+		}
+,
+		"media" : 		{
+			"147.mp3" : 			{
+				"kind" : "audiofile",
+				"local" : 1,
+				"singleton" : 				{
+					"bootpath" : "~/Downloads",
+					"projectrelativepath" : "../../../../Downloads"
+				}
+
+			}
+,
+			"Coeur.png" : 			{
+				"kind" : "imagefile",
+				"local" : 1,
+				"singleton" : 				{
+					"bootpath" : "~/Downloads",
+					"projectrelativepath" : "../../../../Downloads"
+				}
+
+			}
+
+		}
+,
+		"externals" : 		{
 
 		}
 
