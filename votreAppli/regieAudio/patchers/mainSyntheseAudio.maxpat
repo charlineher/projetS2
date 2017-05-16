@@ -38,66 +38,37 @@
 		"subpatcher_template" : "",
 		"boxes" : [ 			{
 				"box" : 				{
-					"disabled" : [ 0, 0, 0, 0, 0, 0, 0 ],
-					"id" : "obj-23",
-					"itemtype" : 0,
-					"maxclass" : "radiogroup",
+					"id" : "obj-5",
+					"maxclass" : "comment",
 					"numinlets" : 1,
-					"numoutlets" : 1,
-					"outlettype" : [ "" ],
-					"parameter_enable" : 0,
-					"patching_rect" : [ 507.0, 91.0, 18.0, 114.0 ],
-					"size" : 7,
-					"style" : "",
-					"value" : 6
-				}
-
-			}
-, 			{
-				"box" : 				{
-					"id" : "obj-21",
-					"maxclass" : "ezdac~",
-					"numinlets" : 2,
 					"numoutlets" : 0,
-					"patching_rect" : [ 428.0, 349.0, 45.0, 45.0 ],
-					"style" : ""
+					"patching_rect" : [ 227.166626, 266.5, 51.0, 20.0 ],
+					"style" : "",
+					"text" : "arrêt"
 				}
 
 			}
 , 			{
 				"box" : 				{
-					"id" : "obj-20",
+					"id" : "obj-4",
+					"maxclass" : "comment",
+					"numinlets" : 1,
+					"numoutlets" : 0,
+					"patching_rect" : [ 227.166626, 212.0, 51.0, 20.0 ],
+					"style" : "",
+					"text" : "marche"
+				}
+
+			}
+, 			{
+				"box" : 				{
+					"id" : "obj-3",
 					"maxclass" : "button",
 					"numinlets" : 1,
 					"numoutlets" : 1,
 					"outlettype" : [ "bang" ],
-					"patching_rect" : [ 393.0, 136.0, 24.0, 24.0 ],
+					"patching_rect" : [ 195.0, 264.5, 24.0, 24.0 ],
 					"style" : ""
-				}
-
-			}
-, 			{
-				"box" : 				{
-					"id" : "obj-18",
-					"maxclass" : "comment",
-					"numinlets" : 1,
-					"numoutlets" : 0,
-					"patching_rect" : [ 311.0, 61.0, 150.0, 20.0 ],
-					"style" : "",
-					"text" : "syntheseFM"
-				}
-
-			}
-, 			{
-				"box" : 				{
-					"id" : "obj-15",
-					"maxclass" : "newobj",
-					"numinlets" : 2,
-					"numoutlets" : 1,
-					"outlettype" : [ "signal" ],
-					"patching_rect" : [ 402.0, 241.0, 76.0, 22.0 ],
-					"style" : "",
-					"text" : "syntheseFM"
 				}
 
 			}
@@ -120,7 +91,7 @@
 					"numinlets" : 1,
 					"numoutlets" : 1,
 					"outlettype" : [ "bang" ],
-					"patching_rect" : [ 212.0, 216.0, 24.0, 24.0 ],
+					"patching_rect" : [ 195.0, 212.0, 24.0, 24.0 ],
 					"style" : ""
 				}
 
@@ -129,7 +100,7 @@
 				"box" : 				{
 					"id" : "obj-9",
 					"maxclass" : "newobj",
-					"numinlets" : 2,
+					"numinlets" : 3,
 					"numoutlets" : 1,
 					"outlettype" : [ "signal" ],
 					"patching_rect" : [ 122.0, 258.0, 44.0, 22.0 ],
@@ -204,22 +175,6 @@
 				}
 
 			}
-, 			{
-				"box" : 				{
-					"angle" : 270.0,
-					"bgcolor" : [ 0.952941, 0.564706, 0.098039, 0.3 ],
-					"id" : "obj-16",
-					"maxclass" : "panel",
-					"mode" : 0,
-					"numinlets" : 1,
-					"numoutlets" : 0,
-					"patching_rect" : [ 307.666626, 83.0, 251.0, 359.0 ],
-					"presentation_rect" : [ 366.666626, 83.0, 0.0, 0.0 ],
-					"proportion" : 0.39,
-					"style" : ""
-				}
-
-			}
  ],
 		"lines" : [ 			{
 				"patchline" : 				{
@@ -241,39 +196,10 @@
 			}
 , 			{
 				"patchline" : 				{
-					"destination" : [ "obj-21", 1 ],
+					"destination" : [ "obj-9", 2 ],
 					"disabled" : 0,
 					"hidden" : 0,
-					"order" : 0,
-					"source" : [ "obj-15", 0 ]
-				}
-
-			}
-, 			{
-				"patchline" : 				{
-					"destination" : [ "obj-21", 0 ],
-					"disabled" : 0,
-					"hidden" : 0,
-					"order" : 1,
-					"source" : [ "obj-15", 0 ]
-				}
-
-			}
-, 			{
-				"patchline" : 				{
-					"destination" : [ "obj-15", 0 ],
-					"disabled" : 0,
-					"hidden" : 0,
-					"source" : [ "obj-20", 0 ]
-				}
-
-			}
-, 			{
-				"patchline" : 				{
-					"destination" : [ "obj-15", 1 ],
-					"disabled" : 0,
-					"hidden" : 0,
-					"source" : [ "obj-23", 0 ]
+					"source" : [ "obj-3", 0 ]
 				}
 
 			}
@@ -307,37 +233,25 @@
  ],
 		"dependency_cache" : [ 			{
 				"name" : "syntheseSoustractive.maxpat",
-				"bootpath" : "~/Documents/GitKraken/projetS2/ressourcesMAX",
+				"bootpath" : "~/Documents/projetS2/votreAppli/regieAudio/patchers",
 				"type" : "JSON",
 				"implicit" : 1
 			}
 , 			{
 				"name" : "osc.maxpat",
-				"bootpath" : "~/Documents/GitKraken/projetS2/ressourcesMAX",
+				"bootpath" : "~/Documents/projetS2/votreAppli/regieAudio/patchers",
 				"type" : "JSON",
 				"implicit" : 1
 			}
 , 			{
 				"name" : "filtrage.maxpat",
-				"bootpath" : "~/Documents/GitKraken/projetS2/ressourcesMAX",
+				"bootpath" : "~/Documents/projetS2/votreAppli/regieAudio/patchers",
 				"type" : "JSON",
 				"implicit" : 1
 			}
 , 			{
 				"name" : "ADSR.maxpat",
-				"bootpath" : "~/Documents/GitKraken/projetS2/ressourcesMAX",
-				"type" : "JSON",
-				"implicit" : 1
-			}
-, 			{
-				"name" : "syntheseFM.maxpat",
-				"bootpath" : "~/Documents/GitKraken/projetS2/ressourcesMAX",
-				"type" : "JSON",
-				"implicit" : 1
-			}
-, 			{
-				"name" : "simpleFM~.maxpat",
-				"bootpath" : "C74:/docs/tutorial-patchers/msp-tut",
+				"bootpath" : "~/Documents/projetS2/votreAppli/regieAudio/patchers",
 				"type" : "JSON",
 				"implicit" : 1
 			}

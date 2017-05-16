@@ -9,7 +9,7 @@
 			"modernui" : 1
 		}
 ,
-		"rect" : [ 415.0, 104.0, 728.0, 547.0 ],
+		"rect" : [ 470.0, 150.0, 728.0, 547.0 ],
 		"bglocked" : 0,
 		"openinpresentation" : 0,
 		"default_fontsize" : 12.0,
@@ -214,7 +214,6 @@
 					"numinlets" : 1,
 					"numoutlets" : 0,
 					"patching_rect" : [ 307.666626, 83.0, 251.0, 359.0 ],
-					"presentation_rect" : [ 366.666626, 83.0, 0.0, 0.0 ],
 					"proportion" : 0.39,
 					"style" : ""
 				}
@@ -307,31 +306,31 @@
  ],
 		"dependency_cache" : [ 			{
 				"name" : "syntheseSoustractive.maxpat",
-				"bootpath" : "~/Documents/GitKraken/projetS2/ressourcesMAX",
+				"bootpath" : "~/Documents/projetS2/ressourcesMAX",
 				"type" : "JSON",
 				"implicit" : 1
 			}
 , 			{
 				"name" : "osc.maxpat",
-				"bootpath" : "~/Documents/GitKraken/projetS2/ressourcesMAX",
+				"bootpath" : "~/Documents/projetS2/ressourcesMAX",
 				"type" : "JSON",
 				"implicit" : 1
 			}
 , 			{
 				"name" : "filtrage.maxpat",
-				"bootpath" : "~/Documents/GitKraken/projetS2/ressourcesMAX",
+				"bootpath" : "~/Documents/projetS2/ressourcesMAX",
 				"type" : "JSON",
 				"implicit" : 1
 			}
 , 			{
 				"name" : "ADSR.maxpat",
-				"bootpath" : "~/Documents/GitKraken/projetS2/ressourcesMAX",
+				"bootpath" : "~/Documents/projetS2/ressourcesMAX",
 				"type" : "JSON",
 				"implicit" : 1
 			}
 , 			{
 				"name" : "syntheseFM.maxpat",
-				"bootpath" : "~/Documents/GitKraken/projetS2/ressourcesMAX",
+				"bootpath" : "~/Documents/projetS2/ressourcesMAX",
 				"type" : "JSON",
 				"implicit" : 1
 			}

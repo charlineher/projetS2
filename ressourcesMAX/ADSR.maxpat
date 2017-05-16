@@ -5,7 +5,7 @@
 			"major" : 7,
 			"minor" : 3,
 			"revision" : 3,
-			"architecture" : "x64",
+			"architecture" : "x86",
 			"modernui" : 1
 		}
 ,
@@ -56,7 +56,6 @@
 					"numinlets" : 1,
 					"numoutlets" : 0,
 					"patching_rect" : [ 347.0, 53.0, 168.0, 20.0 ],
-					"presentation_rect" : [ 350.0, 48.0, 0.0, 0.0 ],
 					"style" : "",
 					"text" : "déclenchement cycle ADSR"
 				}
@@ -78,11 +77,11 @@
 				"box" : 				{
 					"comment" : "",
 					"id" : "obj-9",
-					"index" : 0,
+					"index" : 2,
 					"maxclass" : "inlet",
 					"numinlets" : 0,
 					"numoutlets" : 1,
-					"outlettype" : [ "" ],
+					"outlettype" : [ "bang" ],
 					"patching_rect" : [ 386.0, 75.0, 30.0, 30.0 ],
 					"style" : ""
 				}
@@ -92,7 +91,7 @@
 				"box" : 				{
 					"comment" : "",
 					"id" : "obj-8",
-					"index" : 0,
+					"index" : 1,
 					"maxclass" : "outlet",
 					"numinlets" : 1,
 					"numoutlets" : 0,
@@ -105,11 +104,11 @@
 				"box" : 				{
 					"comment" : "",
 					"id" : "obj-4",
-					"index" : 0,
+					"index" : 1,
 					"maxclass" : "inlet",
 					"numinlets" : 0,
 					"numoutlets" : 1,
-					"outlettype" : [ "" ],
+					"outlettype" : [ "signal" ],
 					"patching_rect" : [ 213.0, 75.0, 30.0, 30.0 ],
 					"style" : ""
 				}
@@ -208,14 +207,14 @@
 			}
 , 			{
 				"box" : 				{
-					"addpoints" : [ 2.631579, 0.045912, 0, 81.578947, 0.949138, 0, 186.842105, 0.658815, 0, 770.440252, 0.658815, 0, 996.855346, 0.0, 0 ],
+					"addpoints" : [ 0.0, 0.0, 0, 81.578949, 0.949138, 0, 186.842102, 0.658815, 0, 770.440247, 0.658815, 0, 996.855347, 0.0, 0 ],
 					"id" : "obj-50",
 					"maxclass" : "function",
 					"numinlets" : 1,
 					"numoutlets" : 4,
 					"outlettype" : [ "float", "", "", "bang" ],
 					"parameter_enable" : 0,
-					"patching_rect" : [ 436.5, 215.846558, 171.0, 87.0 ],
+					"patching_rect" : [ 437.5, 211.846558, 171.0, 87.0 ],
 					"style" : ""
 				}
 
@@ -316,8 +315,6 @@
 
 			}
  ],
-		"dependency_cache" : [  ],
-		"autosave" : 0,
 		"styles" : [ 			{
 				"name" : "dialGold",
 				"default" : 				{
@@ -375,8 +372,8 @@
 , 			{
 				"name" : "newobjYellow-1",
 				"default" : 				{
-					"accentcolor" : [ 0.82517, 0.78181, 0.059545, 1.0 ],
-					"fontsize" : [ 12.059008 ]
+					"fontsize" : [ 12.059008 ],
+					"accentcolor" : [ 0.82517, 0.78181, 0.059545, 1.0 ]
 				}
 ,
 				"parentstyle" : "",
