@@ -2,8 +2,8 @@
 	"name" : "regieAudio",
 	"version" : 1,
 	"creationdate" : -721919280,
-	"modificationdate" : -717192490,
-	"viewrect" : [ 123.0, 176.0, 300.0, 500.0 ],
+	"modificationdate" : -717191720,
+	"viewrect" : [ 123.0, 176.0, 300.0, 646.0 ],
 	"autoorganize" : 1,
 	"hideprojectwindow" : 0,
 	"showdependencies" : 1,
@@ -16,32 +16,17 @@
 				"toplevel" : 1
 			}
 ,
+			"effetAudio2.maxpat" : 			{
+				"kind" : "patcher",
+				"local" : 1
+			}
+,
 			"transposition.maxpat" : 			{
 				"kind" : "patcher",
 				"local" : 1
 			}
 ,
-			"tremolo.maxpat" : 			{
-				"kind" : "patcher",
-				"local" : 1
-			}
-,
-			"ringModulation2.maxpat" : 			{
-				"kind" : "patcher",
-				"local" : 1
-			}
-,
-			"ringModulation.maxpat" : 			{
-				"kind" : "patcher",
-				"local" : 1
-			}
-,
 			"pedaleWahWah.maxpat" : 			{
-				"kind" : "patcher",
-				"local" : 1
-			}
-,
-			"detectionEnveloppe.maxpat" : 			{
 				"kind" : "patcher",
 				"local" : 1
 			}
@@ -81,12 +66,12 @@
 				"local" : 1
 			}
 ,
-			"ADSR.maxpat" : 			{
+			"effetAudio1.maxpat" : 			{
 				"kind" : "patcher",
 				"local" : 1
 			}
 ,
-			"egaliseur_5b.maxpat" : 			{
+			"ADSR.maxpat" : 			{
 				"kind" : "patcher",
 				"local" : 1
 			}
@@ -95,15 +80,19 @@
 				"kind" : "patcher",
 				"local" : 1
 			}
-,
-			"tremolo2.maxpat" : 			{
-				"kind" : "patcher",
-				"local" : 1
-			}
 
 		}
 ,
 		"media" : 		{
+			"Nouvel enregistrement 4.m4a" : 			{
+				"kind" : "audiofile",
+				"local" : 1,
+				"singleton" : 				{
+					"bootpath" : "~/Downloads",
+					"projectrelativepath" : "../../../../Downloads"
+				}
+
+			}
 
 		}
 
