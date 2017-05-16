@@ -2,7 +2,7 @@
 	"name" : "regieAudio",
 	"version" : 1,
 	"creationdate" : -721919280,
-	"modificationdate" : -717191720,
+	"modificationdate" : -717190277,
 	"viewrect" : [ 123.0, 176.0, 300.0, 646.0 ],
 	"autoorganize" : 1,
 	"hideprojectwindow" : 0,
@@ -14,6 +14,31 @@
 				"kind" : "patcher",
 				"local" : 1,
 				"toplevel" : 1
+			}
+,
+			"lecteurAudio.maxpat" : 			{
+				"kind" : "patcher",
+				"local" : 1
+			}
+,
+			"syntheseSoustractive.maxpat" : 			{
+				"kind" : "patcher",
+				"local" : 1
+			}
+,
+			"osc.maxpat" : 			{
+				"kind" : "patcher",
+				"local" : 1
+			}
+,
+			"filtrage.maxpat" : 			{
+				"kind" : "patcher",
+				"local" : 1
+			}
+,
+			"ADSR.maxpat" : 			{
+				"kind" : "patcher",
+				"local" : 1
 			}
 ,
 			"effetAudio2.maxpat" : 			{
@@ -31,17 +56,7 @@
 				"local" : 1
 			}
 ,
-			"lecteurAudio.maxpat" : 			{
-				"kind" : "patcher",
-				"local" : 1
-			}
-,
 			"syntheseFM.maxpat" : 			{
-				"kind" : "patcher",
-				"local" : 1
-			}
-,
-			"syntheseSoustractive.maxpat" : 			{
 				"kind" : "patcher",
 				"local" : 1
 			}
@@ -56,27 +71,17 @@
 				"local" : 1
 			}
 ,
-			"osc.maxpat" : 			{
-				"kind" : "patcher",
-				"local" : 1
-			}
-,
-			"filtrage.maxpat" : 			{
-				"kind" : "patcher",
-				"local" : 1
-			}
-,
 			"effetAudio1.maxpat" : 			{
 				"kind" : "patcher",
 				"local" : 1
 			}
 ,
-			"ADSR.maxpat" : 			{
+			"mainEffetAudio.maxpat" : 			{
 				"kind" : "patcher",
 				"local" : 1
 			}
 ,
-			"mainEffetAudio.maxpat" : 			{
+			"ringModulation.maxpat" : 			{
 				"kind" : "patcher",
 				"local" : 1
 			}

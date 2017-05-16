@@ -9,7 +9,7 @@
 			"modernui" : 1
 		}
 ,
-		"rect" : [ 59.0, 104.0, 1295.0, 832.0 ],
+		"rect" : [ 287.0, 128.0, 1295.0, 832.0 ],
 		"bglocked" : 0,
 		"openinpresentation" : 0,
 		"default_fontsize" : 12.0,
@@ -38,11 +38,35 @@
 		"subpatcher_template" : "",
 		"boxes" : [ 			{
 				"box" : 				{
+					"id" : "obj-37",
+					"maxclass" : "newobj",
+					"numinlets" : 1,
+					"numoutlets" : 0,
+					"patching_rect" : [ 684.0, 298.0, 112.0, 22.0 ],
+					"style" : "",
+					"text" : "effetAudio2.maxpat"
+				}
+
+			}
+, 			{
+				"box" : 				{
+					"id" : "obj-36",
+					"maxclass" : "newobj",
+					"numinlets" : 1,
+					"numoutlets" : 0,
+					"patching_rect" : [ 993.0, 292.0, 112.0, 22.0 ],
+					"style" : "",
+					"text" : "effetAudio1.maxpat"
+				}
+
+			}
+, 			{
+				"box" : 				{
 					"id" : "obj-15",
 					"maxclass" : "comment",
 					"numinlets" : 1,
 					"numoutlets" : 0,
-					"patching_rect" : [ 884.166626, 399.5, 51.0, 20.0 ],
+					"patching_rect" : [ 747.166626, 595.5, 51.0, 20.0 ],
 					"style" : "",
 					"text" : "arrêt"
 				}
@@ -54,7 +78,7 @@
 					"maxclass" : "comment",
 					"numinlets" : 1,
 					"numoutlets" : 0,
-					"patching_rect" : [ 884.166626, 345.0, 51.0, 20.0 ],
+					"patching_rect" : [ 747.166626, 541.0, 51.0, 20.0 ],
 					"style" : "",
 					"text" : "marche"
 				}
@@ -67,7 +91,7 @@
 					"numinlets" : 1,
 					"numoutlets" : 1,
 					"outlettype" : [ "bang" ],
-					"patching_rect" : [ 852.0, 397.5, 24.0, 24.0 ],
+					"patching_rect" : [ 715.0, 593.5, 24.0, 24.0 ],
 					"style" : ""
 				}
 
@@ -79,7 +103,7 @@
 					"numinlets" : 1,
 					"numoutlets" : 1,
 					"outlettype" : [ "bang" ],
-					"patching_rect" : [ 852.0, 345.0, 24.0, 24.0 ],
+					"patching_rect" : [ 715.0, 541.0, 24.0, 24.0 ],
 					"style" : ""
 				}
 
@@ -91,7 +115,7 @@
 					"numinlets" : 3,
 					"numoutlets" : 1,
 					"outlettype" : [ "signal" ],
-					"patching_rect" : [ 779.0, 391.0, 44.0, 22.0 ],
+					"patching_rect" : [ 642.0, 587.0, 44.0, 22.0 ],
 					"style" : "",
 					"text" : "ADSR"
 				}
@@ -103,7 +127,7 @@
 					"maxclass" : "ezdac~",
 					"numinlets" : 2,
 					"numoutlets" : 0,
-					"patching_rect" : [ 784.0, 466.0, 45.0, 45.0 ],
+					"patching_rect" : [ 647.0, 662.0, 45.0, 45.0 ],
 					"style" : ""
 				}
 
@@ -115,7 +139,7 @@
 					"numinlets" : 2,
 					"numoutlets" : 1,
 					"outlettype" : [ "signal" ],
-					"patching_rect" : [ 757.0, 308.0, 125.0, 22.0 ],
+					"patching_rect" : [ 620.0, 504.0, 125.0, 22.0 ],
 					"style" : "",
 					"text" : "syntheseSoustractive"
 				}
@@ -129,7 +153,7 @@
 					"numoutlets" : 1,
 					"outlettype" : [ "int" ],
 					"parameter_enable" : 0,
-					"patching_rect" : [ 231.0, 698.0, 24.0, 24.0 ],
+					"patching_rect" : [ 1070.0, 130.0, 24.0, 24.0 ],
 					"style" : ""
 				}
 
@@ -140,7 +164,7 @@
 					"maxclass" : "comment",
 					"numinlets" : 1,
 					"numoutlets" : 0,
-					"patching_rect" : [ 90.0, 654.0, 50.0, 20.0 ],
+					"patching_rect" : [ 929.0, 86.0, 50.0, 20.0 ],
 					"style" : "",
 					"text" : "Lecture"
 				}
@@ -152,7 +176,7 @@
 					"maxclass" : "comment",
 					"numinlets" : 1,
 					"numoutlets" : 0,
-					"patching_rect" : [ 247.0, 671.0, 63.0, 20.0 ],
+					"patching_rect" : [ 1086.0, 103.0, 63.0, 20.0 ],
 					"style" : "",
 					"text" : "Répétition"
 				}
@@ -164,7 +188,7 @@
 					"maxclass" : "comment",
 					"numinlets" : 1,
 					"numoutlets" : 0,
-					"patching_rect" : [ 171.5, 641.0, 37.0, 20.0 ],
+					"patching_rect" : [ 1010.5, 73.0, 37.0, 20.0 ],
 					"style" : "",
 					"text" : "Stop"
 				}
@@ -177,7 +201,7 @@
 					"numinlets" : 1,
 					"numoutlets" : 1,
 					"outlettype" : [ "bang" ],
-					"patching_rect" : [ 178.0, 679.0, 24.0, 24.0 ],
+					"patching_rect" : [ 1017.0, 111.0, 24.0, 24.0 ],
 					"style" : ""
 				}
 
@@ -189,7 +213,7 @@
 					"numinlets" : 1,
 					"numoutlets" : 1,
 					"outlettype" : [ "bang" ],
-					"patching_rect" : [ 127.0, 683.0, 24.0, 24.0 ],
+					"patching_rect" : [ 966.0, 115.0, 24.0, 24.0 ],
 					"style" : ""
 				}
 
@@ -201,7 +225,7 @@
 					"numinlets" : 3,
 					"numoutlets" : 2,
 					"outlettype" : [ "signal", "signal" ],
-					"patching_rect" : [ 122.0, 790.0, 144.0, 22.0 ],
+					"patching_rect" : [ 961.0, 222.0, 144.0, 22.0 ],
 					"style" : "",
 					"text" : "lecteurAudio fichier4.wav"
 				}
@@ -215,7 +239,7 @@
 					"numoutlets" : 1,
 					"outlettype" : [ "int" ],
 					"parameter_enable" : 0,
-					"patching_rect" : [ 235.0, 510.0, 24.0, 24.0 ],
+					"patching_rect" : [ 788.0, 135.0, 24.0, 24.0 ],
 					"style" : ""
 				}
 
@@ -226,7 +250,7 @@
 					"maxclass" : "comment",
 					"numinlets" : 1,
 					"numoutlets" : 0,
-					"patching_rect" : [ 94.0, 466.0, 50.0, 20.0 ],
+					"patching_rect" : [ 647.0, 91.0, 50.0, 20.0 ],
 					"style" : "",
 					"text" : "Lecture"
 				}
@@ -238,7 +262,7 @@
 					"maxclass" : "comment",
 					"numinlets" : 1,
 					"numoutlets" : 0,
-					"patching_rect" : [ 251.0, 483.0, 63.0, 20.0 ],
+					"patching_rect" : [ 804.0, 108.0, 63.0, 20.0 ],
 					"style" : "",
 					"text" : "Répétition"
 				}
@@ -250,7 +274,7 @@
 					"maxclass" : "comment",
 					"numinlets" : 1,
 					"numoutlets" : 0,
-					"patching_rect" : [ 175.5, 453.0, 37.0, 20.0 ],
+					"patching_rect" : [ 728.5, 78.0, 37.0, 20.0 ],
 					"style" : "",
 					"text" : "Stop"
 				}
@@ -263,7 +287,7 @@
 					"numinlets" : 1,
 					"numoutlets" : 1,
 					"outlettype" : [ "bang" ],
-					"patching_rect" : [ 182.0, 491.0, 24.0, 24.0 ],
+					"patching_rect" : [ 735.0, 116.0, 24.0, 24.0 ],
 					"style" : ""
 				}
 
@@ -275,7 +299,7 @@
 					"numinlets" : 1,
 					"numoutlets" : 1,
 					"outlettype" : [ "bang" ],
-					"patching_rect" : [ 131.0, 495.0, 24.0, 24.0 ],
+					"patching_rect" : [ 684.0, 120.0, 24.0, 24.0 ],
 					"style" : ""
 				}
 
@@ -287,7 +311,7 @@
 					"numinlets" : 3,
 					"numoutlets" : 2,
 					"outlettype" : [ "signal", "signal" ],
-					"patching_rect" : [ 126.0, 602.0, 144.0, 22.0 ],
+					"patching_rect" : [ 679.0, 227.0, 144.0, 22.0 ],
 					"style" : "",
 					"text" : "lecteurAudio fichier3.wav"
 				}
@@ -301,7 +325,7 @@
 					"numoutlets" : 1,
 					"outlettype" : [ "int" ],
 					"parameter_enable" : 0,
-					"patching_rect" : [ 246.0, 311.0, 24.0, 24.0 ],
+					"patching_rect" : [ 531.0, 130.0, 24.0, 24.0 ],
 					"style" : ""
 				}
 
@@ -312,7 +336,7 @@
 					"maxclass" : "comment",
 					"numinlets" : 1,
 					"numoutlets" : 0,
-					"patching_rect" : [ 105.0, 267.0, 50.0, 20.0 ],
+					"patching_rect" : [ 390.0, 86.0, 50.0, 20.0 ],
 					"style" : "",
 					"text" : "Lecture"
 				}
@@ -324,7 +348,7 @@
 					"maxclass" : "comment",
 					"numinlets" : 1,
 					"numoutlets" : 0,
-					"patching_rect" : [ 262.0, 284.0, 63.0, 20.0 ],
+					"patching_rect" : [ 547.0, 103.0, 63.0, 20.0 ],
 					"style" : "",
 					"text" : "Répétition"
 				}
@@ -336,7 +360,7 @@
 					"maxclass" : "comment",
 					"numinlets" : 1,
 					"numoutlets" : 0,
-					"patching_rect" : [ 186.5, 254.0, 37.0, 20.0 ],
+					"patching_rect" : [ 471.5, 73.0, 37.0, 20.0 ],
 					"style" : "",
 					"text" : "Stop"
 				}
@@ -349,7 +373,7 @@
 					"numinlets" : 1,
 					"numoutlets" : 1,
 					"outlettype" : [ "bang" ],
-					"patching_rect" : [ 193.0, 292.0, 24.0, 24.0 ],
+					"patching_rect" : [ 478.0, 111.0, 24.0, 24.0 ],
 					"style" : ""
 				}
 
@@ -361,7 +385,7 @@
 					"numinlets" : 1,
 					"numoutlets" : 1,
 					"outlettype" : [ "bang" ],
-					"patching_rect" : [ 142.0, 296.0, 24.0, 24.0 ],
+					"patching_rect" : [ 427.0, 115.0, 24.0, 24.0 ],
 					"style" : ""
 				}
 
@@ -373,7 +397,7 @@
 					"numinlets" : 3,
 					"numoutlets" : 2,
 					"outlettype" : [ "signal", "signal" ],
-					"patching_rect" : [ 137.0, 403.0, 144.0, 22.0 ],
+					"patching_rect" : [ 422.0, 222.0, 144.0, 22.0 ],
 					"style" : "",
 					"text" : "lecteurAudio fichier2.wav"
 				}
@@ -486,6 +510,15 @@
 			}
 , 			{
 				"patchline" : 				{
+					"destination" : [ "obj-36", 0 ],
+					"disabled" : 0,
+					"hidden" : 0,
+					"source" : [ "obj-14", 0 ]
+				}
+
+			}
+, 			{
+				"patchline" : 				{
 					"destination" : [ "obj-22", 2 ],
 					"disabled" : 0,
 					"hidden" : 0,
@@ -544,6 +577,15 @@
 					"disabled" : 0,
 					"hidden" : 0,
 					"source" : [ "obj-28", 0 ]
+				}
+
+			}
+, 			{
+				"patchline" : 				{
+					"destination" : [ "obj-37", 0 ],
+					"disabled" : 0,
+					"hidden" : 0,
+					"source" : [ "obj-29", 0 ]
 				}
 
 			}
@@ -637,6 +679,24 @@
 			}
 , 			{
 				"name" : "ADSR.maxpat",
+				"bootpath" : "~/Documents/projetS2/votreAppli/regieAudio/patchers",
+				"type" : "JSON",
+				"implicit" : 1
+			}
+, 			{
+				"name" : "effetAudio1.maxpat",
+				"bootpath" : "~/Documents/projetS2/votreAppli/regieAudio/patchers",
+				"type" : "JSON",
+				"implicit" : 1
+			}
+, 			{
+				"name" : "pedaleWahWah.maxpat",
+				"bootpath" : "~/Documents/projetS2/votreAppli/regieAudio/patchers",
+				"type" : "JSON",
+				"implicit" : 1
+			}
+, 			{
+				"name" : "effetAudio2.maxpat",
 				"bootpath" : "~/Documents/projetS2/votreAppli/regieAudio/patchers",
 				"type" : "JSON",
 				"implicit" : 1
