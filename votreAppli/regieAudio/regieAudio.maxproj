@@ -2,7 +2,11 @@
 	"name" : "regieAudio",
 	"version" : 1,
 	"creationdate" : -721919280,
+<<<<<<< HEAD
 	"modificationdate" : -715821563,
+=======
+	"modificationdate" : -715819884,
+>>>>>>> a7
 	"viewrect" : [ 123.0, 176.0, 300.0, 646.0 ],
 	"autoorganize" : 1,
 	"hideprojectwindow" : 0,
@@ -18,7 +22,16 @@
 ,
 			"receptionOSC.maxpat" : 			{
 				"kind" : "patcher",
+<<<<<<< HEAD
 				"local" : 1
+=======
+				"local" : 1,
+				"singleton" : 				{
+					"bootpath" : "/Volumes/i160605/sauvegardes/Mes Documents/S2/Projet Max/regieAudio/patchers",
+					"projectrelativepath" : "../../../../../../Volumes/i160605/sauvegardes/Mes Documents/S2/Projet Max/regieAudio/patchers"
+				}
+
+>>>>>>> a7
 			}
 ,
 			"moduleEnvoiAudio.maxpat" : 			{
@@ -92,6 +105,14 @@
 			}
 ,
 			"ringModulation.maxpat" : 			{
+<<<<<<< HEAD
+=======
+				"kind" : "patcher",
+				"local" : 1
+			}
+,
+			"mixageAudio.maxpat" : 			{
+>>>>>>> a7
 				"kind" : "patcher",
 				"local" : 1
 			}
