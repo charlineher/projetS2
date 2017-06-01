@@ -2,12 +2,8 @@
 	"name" : "regieAudio",
 	"version" : 1,
 	"creationdate" : -721919280,
-<<<<<<< HEAD
-	"modificationdate" : -715821563,
-=======
-	"modificationdate" : -715819884,
->>>>>>> a7
-	"viewrect" : [ 123.0, 176.0, 300.0, 646.0 ],
+	"modificationdate" : -715812227,
+	"viewrect" : [ -3.0, 93.0, 300.0, 646.0 ],
 	"autoorganize" : 1,
 	"hideprojectwindow" : 0,
 	"showdependencies" : 1,
@@ -20,46 +16,7 @@
 				"toplevel" : 1
 			}
 ,
-			"receptionOSC.maxpat" : 			{
-				"kind" : "patcher",
-<<<<<<< HEAD
-				"local" : 1
-=======
-				"local" : 1,
-				"singleton" : 				{
-					"bootpath" : "/Volumes/i160605/sauvegardes/Mes Documents/S2/Projet Max/regieAudio/patchers",
-					"projectrelativepath" : "../../../../../../Volumes/i160605/sauvegardes/Mes Documents/S2/Projet Max/regieAudio/patchers"
-				}
-
->>>>>>> a7
-			}
-,
-			"moduleEnvoiAudio.maxpat" : 			{
-				"kind" : "patcher",
-				"local" : 1
-			}
-,
 			"lecteurAudio.maxpat" : 			{
-				"kind" : "patcher",
-				"local" : 1
-			}
-,
-			"syntheseSoustractive.maxpat" : 			{
-				"kind" : "patcher",
-				"local" : 1
-			}
-,
-			"osc.maxpat" : 			{
-				"kind" : "patcher",
-				"local" : 1
-			}
-,
-			"filtrage.maxpat" : 			{
-				"kind" : "patcher",
-				"local" : 1
-			}
-,
-			"ADSR.maxpat" : 			{
 				"kind" : "patcher",
 				"local" : 1
 			}
@@ -75,6 +32,46 @@
 			}
 ,
 			"effetAudio2.maxpat" : 			{
+				"kind" : "patcher",
+				"local" : 1
+			}
+,
+			"filtrage.maxpat" : 			{
+				"kind" : "patcher",
+				"local" : 1
+			}
+,
+			"receptionOSC.maxpat" : 			{
+				"kind" : "patcher",
+				"local" : 1
+			}
+,
+			"mixageAudio.maxpat" : 			{
+				"kind" : "patcher",
+				"local" : 1
+			}
+,
+			"syntheseSonore.maxpat" : 			{
+				"kind" : "patcher",
+				"local" : 1
+			}
+,
+			"ADSR.maxpat" : 			{
+				"kind" : "patcher",
+				"local" : 1
+			}
+,
+			"syntheseSoustractive.maxpat" : 			{
+				"kind" : "patcher",
+				"local" : 1
+			}
+,
+			"osc.maxpat" : 			{
+				"kind" : "patcher",
+				"local" : 1
+			}
+,
+			"moduleEnvoiAudio.maxpat" : 			{
 				"kind" : "patcher",
 				"local" : 1
 			}
@@ -105,14 +102,6 @@
 			}
 ,
 			"ringModulation.maxpat" : 			{
-<<<<<<< HEAD
-=======
-				"kind" : "patcher",
-				"local" : 1
-			}
-,
-			"mixageAudio.maxpat" : 			{
->>>>>>> a7
 				"kind" : "patcher",
 				"local" : 1
 			}
@@ -120,7 +109,22 @@
 		}
 ,
 		"media" : 		{
-			"Nouvel enregistrement 4.m4a" : 			{
+			"Pas.wav" : 			{
+				"kind" : "audiofile",
+				"local" : 1
+			}
+,
+			"Battements.wav" : 			{
+				"kind" : "audiofile",
+				"local" : 1
+			}
+,
+			"Cri.wav" : 			{
+				"kind" : "audiofile",
+				"local" : 1
+			}
+,
+			"Grincement.wav" : 			{
 				"kind" : "audiofile",
 				"local" : 1
 			}
