@@ -2,7 +2,7 @@
 	"name" : "regieAudio",
 	"version" : 1,
 	"creationdate" : -721919280,
-	"modificationdate" : -717188924,
+	"modificationdate" : -715819884,
 	"viewrect" : [ 123.0, 176.0, 300.0, 646.0 ],
 	"autoorganize" : 1,
 	"hideprojectwindow" : 0,
@@ -16,7 +16,17 @@
 				"toplevel" : 1
 			}
 ,
-			"mixageAudio.maxpat" : 			{
+			"receptionOSC.maxpat" : 			{
+				"kind" : "patcher",
+				"local" : 1,
+				"singleton" : 				{
+					"bootpath" : "/Volumes/i160605/sauvegardes/Mes Documents/S2/Projet Max/regieAudio/patchers",
+					"projectrelativepath" : "../../../../../../Volumes/i160605/sauvegardes/Mes Documents/S2/Projet Max/regieAudio/patchers"
+				}
+
+			}
+,
+			"moduleEnvoiAudio.maxpat" : 			{
 				"kind" : "patcher",
 				"local" : 1
 			}
@@ -46,17 +56,22 @@
 				"local" : 1
 			}
 ,
+			"effetAudio1.maxpat" : 			{
+				"kind" : "patcher",
+				"local" : 1
+			}
+,
+			"pedaleWahWah.maxpat" : 			{
+				"kind" : "patcher",
+				"local" : 1
+			}
+,
 			"effetAudio2.maxpat" : 			{
 				"kind" : "patcher",
 				"local" : 1
 			}
 ,
 			"transposition.maxpat" : 			{
-				"kind" : "patcher",
-				"local" : 1
-			}
-,
-			"pedaleWahWah.maxpat" : 			{
 				"kind" : "patcher",
 				"local" : 1
 			}
@@ -76,7 +91,17 @@
 				"local" : 1
 			}
 ,
-			"effetAudio1.maxpat" : 			{
+			"mainEffetAudio.maxpat" : 			{
+				"kind" : "patcher",
+				"local" : 1
+			}
+,
+			"ringModulation.maxpat" : 			{
+				"kind" : "patcher",
+				"local" : 1
+			}
+,
+			"mixageAudio.maxpat" : 			{
 				"kind" : "patcher",
 				"local" : 1
 			}
