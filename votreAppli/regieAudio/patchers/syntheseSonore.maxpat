@@ -44,7 +44,7 @@
 					"maxclass" : "inlet",
 					"numinlets" : 0,
 					"numoutlets" : 1,
-					"outlettype" : [ "" ],
+					"outlettype" : [ "bang" ],
 					"patching_rect" : [ 218.5, 67.0, 30.0, 30.0 ],
 					"style" : ""
 				}
@@ -128,7 +128,7 @@
 				"box" : 				{
 					"id" : "obj-33",
 					"maxclass" : "newobj",
-					"numinlets" : 3,
+					"numinlets" : 2,
 					"numoutlets" : 1,
 					"outlettype" : [ "signal" ],
 					"patching_rect" : [ 259.0, 255.0, 44.0, 22.0 ],
@@ -160,7 +160,7 @@
 			}
 , 			{
 				"patchline" : 				{
-					"destination" : [ "obj-33", 2 ],
+					"destination" : [ "obj-33", 1 ],
 					"disabled" : 0,
 					"hidden" : 0,
 					"source" : [ "obj-31", 0 ]
