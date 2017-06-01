@@ -2,7 +2,7 @@
 	"name" : "regieVideo",
 	"version" : 1,
 	"creationdate" : -721919246,
-	"modificationdate" : -717188340,
+	"modificationdate" : -715819973,
 	"viewrect" : [ 113.0, 82.0, 300.0, 500.0 ],
 	"autoorganize" : 1,
 	"hideprojectwindow" : 0,
@@ -40,6 +40,16 @@
 			}
 ,
 			"bball.mov" : 			{
+				"kind" : "moviefile",
+				"local" : 1
+			}
+,
+			"chausure..png" : 			{
+				"kind" : "imagefile",
+				"local" : 1
+			}
+,
+			"leCri.mov" : 			{
 				"kind" : "moviefile",
 				"local" : 1
 			}
