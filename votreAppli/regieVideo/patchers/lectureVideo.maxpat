@@ -9,7 +9,7 @@
 			"modernui" : 1
 		}
 ,
-		"rect" : [ 271.0, 317.0, 907.0, 480.0 ],
+		"rect" : [ 259.0, 394.0, 703.0, 480.0 ],
 		"bglocked" : 0,
 		"openinpresentation" : 0,
 		"default_fontsize" : 12.0,
@@ -94,9 +94,9 @@
 					"numinlets" : 2,
 					"numoutlets" : 1,
 					"outlettype" : [ "" ],
-					"patching_rect" : [ 374.0, 161.0, 93.0, 22.0 ],
+					"patching_rect" : [ 374.0, 161.0, 91.0, 22.0 ],
 					"style" : "",
-					"text" : "read Coeur.png"
+					"text" : "read coeur.png"
 				}
 
 			}
