@@ -2,7 +2,7 @@
 	"name" : "regieAudio",
 	"version" : 1,
 	"creationdate" : -721919280,
-	"modificationdate" : -717190277,
+	"modificationdate" : -717188924,
 	"viewrect" : [ 123.0, 176.0, 300.0, 646.0 ],
 	"autoorganize" : 1,
 	"hideprojectwindow" : 0,
@@ -14,6 +14,11 @@
 				"kind" : "patcher",
 				"local" : 1,
 				"toplevel" : 1
+			}
+,
+			"mixageAudio.maxpat" : 			{
+				"kind" : "patcher",
+				"local" : 1
 			}
 ,
 			"lecteurAudio.maxpat" : 			{
@@ -75,28 +80,13 @@
 				"kind" : "patcher",
 				"local" : 1
 			}
-,
-			"mainEffetAudio.maxpat" : 			{
-				"kind" : "patcher",
-				"local" : 1
-			}
-,
-			"ringModulation.maxpat" : 			{
-				"kind" : "patcher",
-				"local" : 1
-			}
 
 		}
 ,
 		"media" : 		{
 			"Nouvel enregistrement 4.m4a" : 			{
 				"kind" : "audiofile",
-				"local" : 1,
-				"singleton" : 				{
-					"bootpath" : "~/Downloads",
-					"projectrelativepath" : "../../../../Downloads"
-				}
-
+				"local" : 1
 			}
 
 		}
