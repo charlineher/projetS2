@@ -9,7 +9,11 @@
 			"modernui" : 1
 		}
 ,
+<<<<<<< HEAD
 		"rect" : [ 457.0, 82.0, 1114.0, 832.0 ],
+=======
+		"rect" : [ 287.0, 128.0, 1295.0, 832.0 ],
+>>>>>>> a2
 		"bglocked" : 0,
 		"openinpresentation" : 0,
 		"default_fontsize" : 12.0,
@@ -38,6 +42,7 @@
 		"subpatcher_template" : "",
 		"boxes" : [ 			{
 				"box" : 				{
+<<<<<<< HEAD
 					"id" : "obj-38",
 					"maxclass" : "newobj",
 					"numinlets" : 2,
@@ -51,6 +56,8 @@
 			}
 , 			{
 				"box" : 				{
+=======
+>>>>>>> a2
 					"id" : "obj-37",
 					"maxclass" : "newobj",
 					"numinlets" : 1,
@@ -505,6 +512,7 @@
  ],
 		"lines" : [ 			{
 				"patchline" : 				{
+<<<<<<< HEAD
 					"destination" : [ "obj-38", 0 ],
 					"disabled" : 0,
 					"hidden" : 0,
@@ -514,6 +522,8 @@
 			}
 , 			{
 				"patchline" : 				{
+=======
+>>>>>>> a2
 					"destination" : [ "obj-14", 1 ],
 					"disabled" : 0,
 					"hidden" : 0,
@@ -675,11 +685,14 @@
 
 			}
  ],
+<<<<<<< HEAD
 		"parameters" : 		{
 			"obj-38::obj-11" : [ "live.gain~[1]", "live.gain~[1]", 0 ],
 			"obj-38::obj-3" : [ "live.gain~", "live.gain~", 0 ]
 		}
 ,
+=======
+>>>>>>> a2
 		"dependency_cache" : [ 			{
 				"name" : "lecteurAudio.maxpat",
 				"bootpath" : "~/Documents/projetS2/votreAppli/regieAudio/patchers",
@@ -728,12 +741,15 @@
 				"type" : "JSON",
 				"implicit" : 1
 			}
+<<<<<<< HEAD
 , 			{
 				"name" : "mixageAudio.maxpat",
 				"bootpath" : "~/Documents/projetS2/votreAppli/regieAudio/patchers",
 				"type" : "JSON",
 				"implicit" : 1
 			}
+=======
+>>>>>>> a2
  ],
 		"autosave" : 0,
 		"styles" : [ 			{

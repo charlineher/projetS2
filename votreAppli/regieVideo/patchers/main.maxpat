@@ -9,7 +9,11 @@
 			"modernui" : 1
 		}
 ,
+<<<<<<< HEAD
 		"rect" : [ 191.0, 176.0, 1323.0, 675.0 ],
+=======
+		"rect" : [ 464.0, 200.0, 563.0, 563.0 ],
+>>>>>>> a2
 		"bglocked" : 0,
 		"openinpresentation" : 0,
 		"default_fontsize" : 12.0,
@@ -38,6 +42,7 @@
 		"subpatcher_template" : "",
 		"boxes" : [ 			{
 				"box" : 				{
+<<<<<<< HEAD
 					"id" : "obj-32",
 					"maxclass" : "newobj",
 					"numinlets" : 1,
@@ -316,6 +321,11 @@
 					"data" : 					{
 						"clips" : [ 							{
 								"filename" : "Sans titre:/Users/i162512/Downloads/147.mp3",
+=======
+					"data" : 					{
+						"clips" : [ 							{
+								"filename" : "147.mp3",
+>>>>>>> a2
 								"filekind" : "audiofile",
 								"loop" : 1,
 								"content_state" : 								{
@@ -340,12 +350,20 @@
  ]
 					}
 ,
+<<<<<<< HEAD
 					"id" : "obj-9",
+=======
+					"id" : "obj-8",
+>>>>>>> a2
 					"maxclass" : "playlist~",
 					"numinlets" : 1,
 					"numoutlets" : 5,
 					"outlettype" : [ "signal", "signal", "signal", "", "dictionary" ],
+<<<<<<< HEAD
 					"patching_rect" : [ 585.0, 88.5, 150.0, 30.0 ],
+=======
+					"patching_rect" : [ 66.0, 41.0, 150.0, 30.0 ],
+>>>>>>> a2
 					"style" : ""
 				}
 
@@ -406,7 +424,11 @@
 					"numinlets" : 0,
 					"numoutlets" : 2,
 					"outlettype" : [ "signal", "signal" ],
+<<<<<<< HEAD
 					"patching_rect" : [ 50.0, 39.0, 132.0, 22.0 ],
+=======
+					"patching_rect" : [ 597.0, 49.0, 132.0, 22.0 ],
+>>>>>>> a2
 					"style" : "",
 					"text" : "receptionAudioReseau"
 				}
@@ -487,6 +509,7 @@
 			}
 , 			{
 				"patchline" : 				{
+<<<<<<< HEAD
 					"destination" : [ "obj-22", 0 ],
 					"disabled" : 0,
 					"hidden" : 0,
@@ -550,6 +573,8 @@
 			}
 , 			{
 				"patchline" : 				{
+=======
+>>>>>>> a2
 					"destination" : [ "obj-5", 0 ],
 					"disabled" : 0,
 					"hidden" : 0,
@@ -559,6 +584,7 @@
 			}
 , 			{
 				"patchline" : 				{
+<<<<<<< HEAD
 					"destination" : [ "obj-10", 1 ],
 					"disabled" : 0,
 					"hidden" : 0,
@@ -577,6 +603,8 @@
 			}
 , 			{
 				"patchline" : 				{
+=======
+>>>>>>> a2
 					"destination" : [ "obj-4", 0 ],
 					"disabled" : 0,
 					"hidden" : 0,
@@ -604,6 +632,7 @@
 			}
 , 			{
 				"patchline" : 				{
+<<<<<<< HEAD
 					"destination" : [ "obj-22", 0 ],
 					"disabled" : 0,
 					"hidden" : 0,
@@ -667,6 +696,8 @@
 			}
 , 			{
 				"patchline" : 				{
+=======
+>>>>>>> a2
 					"destination" : [ "obj-20", 0 ],
 					"disabled" : 0,
 					"hidden" : 0,
@@ -676,6 +707,7 @@
 			}
 , 			{
 				"patchline" : 				{
+<<<<<<< HEAD
 					"destination" : [ "obj-28", 0 ],
 					"disabled" : 0,
 					"hidden" : 0,
@@ -721,6 +753,8 @@
 			}
 , 			{
 				"patchline" : 				{
+=======
+>>>>>>> a2
 					"destination" : [ "obj-16", 0 ],
 					"disabled" : 0,
 					"hidden" : 0,
@@ -730,7 +764,11 @@
 			}
 , 			{
 				"patchline" : 				{
+<<<<<<< HEAD
 					"destination" : [ "obj-33", 0 ],
+=======
+					"destination" : [ "obj-12", 1 ],
+>>>>>>> a2
 					"disabled" : 0,
 					"hidden" : 0,
 					"source" : [ "obj-8", 0 ]
@@ -739,7 +777,11 @@
 			}
 , 			{
 				"patchline" : 				{
+<<<<<<< HEAD
 					"destination" : [ "obj-6", 0 ],
+=======
+					"destination" : [ "obj-12", 0 ],
+>>>>>>> a2
 					"disabled" : 0,
 					"hidden" : 0,
 					"source" : [ "obj-8", 0 ]
@@ -748,6 +790,7 @@
 			}
 , 			{
 				"patchline" : 				{
+<<<<<<< HEAD
 					"destination" : [ "obj-7", 1 ],
 					"disabled" : 0,
 					"hidden" : 0,
@@ -770,15 +813,25 @@
 					"disabled" : 0,
 					"hidden" : 0,
 					"source" : [ "obj-9", 0 ]
+=======
+					"destination" : [ "obj-2", 0 ],
+					"disabled" : 0,
+					"hidden" : 0,
+					"source" : [ "obj-8", 0 ]
+>>>>>>> a2
 				}
 
 			}
  ],
 		"parameters" : 		{
 			"obj-2::obj-16" : [ "flonum[1]", "flonum[1]", 0 ],
+<<<<<<< HEAD
 			"obj-8::obj-13" : [ "flonum[3]", "flonum", 0 ],
 			"obj-2::obj-13" : [ "flonum", "flonum", 0 ],
 			"obj-8::obj-16" : [ "flonum[2]", "flonum[1]", 0 ]
+=======
+			"obj-2::obj-13" : [ "flonum", "flonum", 0 ]
+>>>>>>> a2
 		}
 ,
 		"dependency_cache" : [ 			{
@@ -812,16 +865,20 @@
 				"implicit" : 1
 			}
 , 			{
+<<<<<<< HEAD
 				"name" : "147.mp3",
 				"bootpath" : "~/Downloads",
 				"type" : "Mp3 ",
 				"implicit" : 1
 			}
 , 			{
+=======
+>>>>>>> a2
 				"name" : "OSC-route.mxo",
 				"type" : "iLaX"
 			}
  ],
+<<<<<<< HEAD
 		"autosave" : 0,
 		"styles" : [ 			{
 				"name" : "AudioStatus_Menu",
@@ -960,6 +1017,9 @@
 				"multi" : 0
 			}
  ]
+=======
+		"autosave" : 0
+>>>>>>> a2
 	}
 
 }
