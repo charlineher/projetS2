@@ -59,7 +59,7 @@
 					"numinlets" : 0,
 					"numoutlets" : 1,
 					"outlettype" : [ "" ],
-					"patching_rect" : [ 430.0, 33.0, 30.0, 30.0 ],
+					"patching_rect" : [ 427.0, 29.0, 30.0, 30.0 ],
 					"style" : ""
 				}
 
@@ -73,7 +73,7 @@
 					"numinlets" : 0,
 					"numoutlets" : 1,
 					"outlettype" : [ "" ],
-					"patching_rect" : [ 221.0, 33.0, 30.0, 30.0 ],
+					"patching_rect" : [ 221.0, 29.0, 30.0, 30.0 ],
 					"style" : ""
 				}
 
@@ -101,7 +101,7 @@
 					"outlettype" : [ "" ],
 					"patching_rect" : [ 630.0, 179.0, 166.0, 22.0 ],
 					"style" : "",
-					"text" : "/regieVideo/video2/lecture $1"
+					"text" : "/regieVideo/video4/lecture $1"
 				}
 
 			}
@@ -127,7 +127,7 @@
 					"outlettype" : [ "" ],
 					"patching_rect" : [ 430.0, 179.0, 166.0, 22.0 ],
 					"style" : "",
-					"text" : "/regieVideo/video2/lecture $1"
+					"text" : "/regieVideo/video3/lecture $1"
 				}
 
 			}
@@ -139,7 +139,7 @@
 					"numoutlets" : 1,
 					"outlettype" : [ "int" ],
 					"parameter_enable" : 0,
-					"patching_rect" : [ 430.0, 92.0, 24.0, 24.0 ],
+					"patching_rect" : [ 427.0, 88.0, 24.0, 24.0 ],
 					"style" : ""
 				}
 
@@ -165,7 +165,7 @@
 					"numoutlets" : 1,
 					"outlettype" : [ "int" ],
 					"parameter_enable" : 0,
-					"patching_rect" : [ 224.0, 92.0, 24.0, 24.0 ],
+					"patching_rect" : [ 221.0, 88.0, 24.0, 24.0 ],
 					"style" : ""
 				}
 
@@ -191,7 +191,7 @@
 					"numoutlets" : 1,
 					"outlettype" : [ "int" ],
 					"parameter_enable" : 0,
-					"patching_rect" : [ 36.0, 92.0, 24.0, 24.0 ],
+					"patching_rect" : [ 36.0, 88.0, 24.0, 24.0 ],
 					"style" : ""
 				}
 
