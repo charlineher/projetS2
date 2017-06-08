@@ -2,8 +2,8 @@
 	"name" : "regieVideo",
 	"version" : 1,
 	"creationdate" : -721919246,
-	"modificationdate" : -715819973,
-	"viewrect" : [ 113.0, 82.0, 300.0, 500.0 ],
+	"modificationdate" : -715182347,
+	"viewrect" : [ 34.0, 224.0, 300.0, 500.0 ],
 	"autoorganize" : 1,
 	"hideprojectwindow" : 0,
 	"showdependencies" : 1,
@@ -16,6 +16,11 @@
 				"toplevel" : 1
 			}
 ,
+			"assemblage.maxpat" : 			{
+				"kind" : "patcher",
+				"local" : 1
+			}
+,
 			"recadrage.maxpat" : 			{
 				"kind" : "patcher",
 				"local" : 1
@@ -26,6 +31,11 @@
 		"media" : 		{
 			"147.mp3" : 			{
 				"kind" : "audiofile",
+				"local" : 1
+			}
+,
+			"Porte.jpg" : 			{
+				"kind" : "imagefile",
 				"local" : 1
 			}
 ,
