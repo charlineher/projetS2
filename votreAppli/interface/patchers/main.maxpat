@@ -45,7 +45,6 @@
 					"outlettype" : [ "int" ],
 					"parameter_enable" : 0,
 					"patching_rect" : [ 683.727295, 70.0, 24.0, 24.0 ],
-					"presentation_rect" : [ 683.727295, 70.0, 0.0, 0.0 ],
 					"style" : ""
 				}
 
@@ -59,7 +58,6 @@
 					"outlettype" : [ "int" ],
 					"parameter_enable" : 0,
 					"patching_rect" : [ 465.727264, 70.0, 24.0, 24.0 ],
-					"presentation_rect" : [ 465.727264, 72.0, 0.0, 0.0 ],
 					"style" : ""
 				}
 
@@ -73,7 +71,6 @@
 					"outlettype" : [ "int" ],
 					"parameter_enable" : 0,
 					"patching_rect" : [ 301.0, 70.0, 24.0, 24.0 ],
-					"presentation_rect" : [ 319.727264, 67.0, 0.0, 0.0 ],
 					"style" : ""
 				}
 
@@ -87,7 +84,6 @@
 					"outlettype" : [ "int" ],
 					"parameter_enable" : 0,
 					"patching_rect" : [ 123.727272, 70.0, 24.0, 24.0 ],
-					"presentation_rect" : [ 123.727272, 70.0, 0.0, 0.0 ],
 					"style" : ""
 				}
 
