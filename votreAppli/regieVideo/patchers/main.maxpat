@@ -9,7 +9,7 @@
 			"modernui" : 1
 		}
 ,
-		"rect" : [ 163.0, 276.0, 1480.0, 675.0 ],
+		"rect" : [ 64.0, 101.0, 1490.0, 675.0 ],
 		"bglocked" : 0,
 		"openinpresentation" : 0,
 		"default_fontsize" : 12.0,
@@ -37,19 +37,6 @@
 		"style" : "",
 		"subpatcher_template" : "",
 		"boxes" : [ 			{
-				"box" : 				{
-					"id" : "obj-29",
-					"maxclass" : "toggle",
-					"numinlets" : 1,
-					"numoutlets" : 1,
-					"outlettype" : [ "int" ],
-					"parameter_enable" : 0,
-					"patching_rect" : [ 1278.5, 295.0, 24.0, 24.0 ],
-					"style" : ""
-				}
-
-			}
-, 			{
 				"box" : 				{
 					"id" : "obj-25",
 					"maxclass" : "ezdac~",
@@ -81,21 +68,21 @@
 								"filekind" : "audiofile",
 								"loop" : 0,
 								"content_state" : 								{
+									"play" : [ 0 ],
+									"originaltempo" : [ 120.0 ],
 									"slurtime" : [ 0.0 ],
+									"originallength" : [ 0.0, "ticks" ],
+									"formant" : [ 1.0 ],
+									"speed" : [ 1.0 ],
 									"formantcorrection" : [ 0 ],
+									"pitchcorrection" : [ 0 ],
+									"originallengthms" : [ 0.0 ],
 									"mode" : [ "basic" ],
 									"followglobaltempo" : [ 0 ],
-									"basictuning" : [ 440 ],
-									"play" : [ 0 ],
-									"originallength" : [ 0.0, "ticks" ],
-									"pitchcorrection" : [ 0 ],
 									"timestretch" : [ 0 ],
-									"speed" : [ 1.0 ],
+									"basictuning" : [ 440 ],
 									"pitchshift" : [ 1.0 ],
-									"quality" : [ "basic" ],
-									"originaltempo" : [ 120.0 ],
-									"formant" : [ 1.0 ],
-									"originallengthms" : [ 0.0 ]
+									"quality" : [ "basic" ]
 								}
 
 							}
@@ -147,7 +134,7 @@
 					"outlettype" : [ "signal" ],
 					"patching_rect" : [ 1268.0, 236.0, 45.0, 22.0 ],
 					"style" : "",
-					"text" : ">~ 0.5"
+					"text" : ">~ 0.1"
 				}
 
 			}
@@ -166,7 +153,7 @@
 				"box" : 				{
 					"id" : "obj-21",
 					"maxclass" : "newobj",
-					"numinlets" : 2,
+					"numinlets" : 1,
 					"numoutlets" : 1,
 					"outlettype" : [ "jit_matrix" ],
 					"patching_rect" : [ 1101.0, 352.0, 174.0, 22.0 ],
@@ -201,7 +188,7 @@
 				"box" : 				{
 					"id" : "obj-15",
 					"maxclass" : "newobj",
-					"numinlets" : 2,
+					"numinlets" : 1,
 					"numoutlets" : 1,
 					"outlettype" : [ "jit_matrix" ],
 					"patching_rect" : [ 968.0, 123.0, 199.0, 22.0 ],
@@ -214,7 +201,7 @@
 				"box" : 				{
 					"id" : "obj-11",
 					"maxclass" : "newobj",
-					"numinlets" : 2,
+					"numinlets" : 1,
 					"numoutlets" : 1,
 					"outlettype" : [ "jit_matrix" ],
 					"patching_rect" : [ 1097.0, 191.5, 174.0, 22.0 ],
@@ -290,7 +277,7 @@
 				"box" : 				{
 					"id" : "obj-10",
 					"maxclass" : "newobj",
-					"numinlets" : 2,
+					"numinlets" : 1,
 					"numoutlets" : 1,
 					"outlettype" : [ "jit_matrix" ],
 					"patching_rect" : [ 788.0, 88.5, 176.0, 22.0 ],
@@ -343,21 +330,21 @@
 								"filekind" : "audiofile",
 								"loop" : 1,
 								"content_state" : 								{
+									"play" : [ 0 ],
+									"originaltempo" : [ 120.0 ],
 									"slurtime" : [ 0.0 ],
+									"originallength" : [ 0.0, "ticks" ],
+									"formant" : [ 1.0 ],
+									"speed" : [ 1.0 ],
 									"formantcorrection" : [ 0 ],
+									"pitchcorrection" : [ 0 ],
+									"originallengthms" : [ 0.0 ],
 									"mode" : [ "basic" ],
 									"followglobaltempo" : [ 0 ],
-									"basictuning" : [ 440 ],
-									"play" : [ 0 ],
-									"originallength" : [ 0.0, "ticks" ],
-									"pitchcorrection" : [ 0 ],
 									"timestretch" : [ 0 ],
-									"speed" : [ 1.0 ],
+									"basictuning" : [ 440 ],
 									"pitchshift" : [ 1.0 ],
-									"quality" : [ "basic" ],
-									"originaltempo" : [ 120.0 ],
-									"formant" : [ 1.0 ],
-									"originallengthms" : [ 0.0 ]
+									"quality" : [ "basic" ]
 								}
 
 							}
@@ -369,7 +356,7 @@
 					"numinlets" : 1,
 					"numoutlets" : 5,
 					"outlettype" : [ "signal", "signal", "signal", "", "dictionary" ],
-					"patching_rect" : [ 585.0, 88.5, 150.0, 30.0 ],
+					"patching_rect" : [ 589.0, 88.5, 150.0, 30.0 ],
 					"style" : ""
 				}
 
@@ -477,7 +464,7 @@
 				"box" : 				{
 					"id" : "obj-14",
 					"maxclass" : "newobj",
-					"numinlets" : 2,
+					"numinlets" : 1,
 					"numoutlets" : 1,
 					"outlettype" : [ "jit_matrix" ],
 					"patching_rect" : [ 322.5, 181.0, 118.0, 22.0 ],
@@ -628,15 +615,6 @@
 					"disabled" : 0,
 					"hidden" : 0,
 					"source" : [ "obj-23", 0 ]
-				}
-
-			}
-, 			{
-				"patchline" : 				{
-					"destination" : [ "obj-21", 1 ],
-					"disabled" : 0,
-					"hidden" : 0,
-					"source" : [ "obj-29", 0 ]
 				}
 
 			}
@@ -795,12 +773,12 @@
 			}
  ],
 		"parameters" : 		{
-			"obj-23::obj-16" : [ "flonum[4]", "flonum[1]", 0 ],
-			"obj-2::obj-16" : [ "flonum[1]", "flonum[1]", 0 ],
-			"obj-8::obj-16" : [ "flonum[2]", "flonum[1]", 0 ],
 			"obj-2::obj-13" : [ "flonum", "flonum", 0 ],
+			"obj-2::obj-16" : [ "flonum[1]", "flonum[1]", 0 ],
 			"obj-23::obj-13" : [ "flonum[5]", "flonum", 0 ],
-			"obj-8::obj-13" : [ "flonum[3]", "flonum", 0 ]
+			"obj-8::obj-13" : [ "flonum[3]", "flonum", 0 ],
+			"obj-23::obj-16" : [ "flonum[4]", "flonum[1]", 0 ],
+			"obj-8::obj-16" : [ "flonum[2]", "flonum[1]", 0 ]
 		}
 ,
 		"dependency_cache" : [ 			{
@@ -953,8 +931,8 @@
 , 			{
 				"name" : "newobjYellow-1",
 				"default" : 				{
-					"fontsize" : [ 12.059008 ],
-					"accentcolor" : [ 0.82517, 0.78181, 0.059545, 1.0 ]
+					"accentcolor" : [ 0.82517, 0.78181, 0.059545, 1.0 ],
+					"fontsize" : [ 12.059008 ]
 				}
 ,
 				"parentstyle" : "",
