@@ -359,11 +359,6 @@
 					"data" : 					{
 						"clips" : [ 							{
 								"filename" : "Sans titre:/Users/i162512/Downloads/147.mp3",
-=======
-					"data" : 					{
-						"clips" : [ 							{
-								"filename" : "147.mp3",
->>>>>>> a2
 								"filekind" : "audiofile",
 								"loop" : 1,
 								"content_state" : 								{
@@ -388,11 +383,7 @@
  ]
 					}
 ,
-<<<<<<< HEAD
 					"id" : "obj-9",
-=======
-					"id" : "obj-8",
->>>>>>> a2
 					"maxclass" : "playlist~",
 					"numinlets" : 1,
 					"numoutlets" : 5,
@@ -693,7 +684,6 @@
 			}
 , 			{
 				"patchline" : 				{
-<<<<<<< HEAD
 					"destination" : [ "obj-7", 1 ],
 					"disabled" : 0,
 					"hidden" : 0,
@@ -716,12 +706,6 @@
 					"disabled" : 0,
 					"hidden" : 0,
 					"source" : [ "obj-9", 0 ]
-=======
-					"destination" : [ "obj-2", 0 ],
-					"disabled" : 0,
-					"hidden" : 0,
-					"source" : [ "obj-8", 0 ]
->>>>>>> a2
 				}
 
 			}
@@ -788,7 +772,6 @@
 				"type" : "iLaX"
 			}
  ],
-<<<<<<< HEAD
 		"autosave" : 0,
 		"styles" : [ 			{
 				"name" : "AudioStatus_Menu",
@@ -927,9 +910,6 @@
 				"multi" : 0
 			}
  ]
-=======
-		"autosave" : 0
->>>>>>> a2
 	}
 
 }
