@@ -2,7 +2,7 @@
 	"name" : "regieVideo",
 	"version" : 1,
 	"creationdate" : -721919246,
-	"modificationdate" : -715182347,
+	"modificationdate" : -715112010,
 	"viewrect" : [ 34.0, 224.0, 300.0, 500.0 ],
 	"autoorganize" : 1,
 	"hideprojectwindow" : 0,
@@ -14,6 +14,31 @@
 				"kind" : "patcher",
 				"local" : 1,
 				"toplevel" : 1
+			}
+,
+			"lectureVideo.maxpat" : 			{
+				"kind" : "patcher",
+				"local" : 1
+			}
+,
+			"receptionAudioReseau.maxpat" : 			{
+				"kind" : "patcher",
+				"local" : 1
+			}
+,
+			"receptionOSC.maxpat" : 			{
+				"kind" : "patcher",
+				"local" : 1
+			}
+,
+			"detectionEnveloppe.maxpat" : 			{
+				"kind" : "patcher",
+				"local" : 1
+			}
+,
+			"effetDeplacement.maxpat" : 			{
+				"kind" : "patcher",
+				"local" : 1
 			}
 ,
 			"assemblage.maxpat" : 			{
@@ -30,6 +55,11 @@
 ,
 		"media" : 		{
 			"147.mp3" : 			{
+				"kind" : "audiofile",
+				"local" : 1
+			}
+,
+			"anton.aif" : 			{
 				"kind" : "audiofile",
 				"local" : 1
 			}
@@ -84,5 +114,6 @@
 	"amxdtype" : 1633771873,
 	"readonly" : 0,
 	"devpathtype" : 0,
-	"devpath" : "."
+	"devpath" : ".",
+	"sortmode" : 0
 }
