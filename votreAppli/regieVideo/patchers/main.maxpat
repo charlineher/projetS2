@@ -43,9 +43,9 @@
 					"numinlets" : 1,
 					"numoutlets" : 1,
 					"outlettype" : [ "signal" ],
-					"patching_rect" : [ 979.5, 263.0, 159.0, 22.0 ],
+					"patching_rect" : [ 979.5, 263.0, 169.0, 22.0 ],
 					"style" : "",
-					"text" : "detectionEnveloppe.maxpat"
+					"text" : "detectionEnveloppe.maxpat 2"
 				}
 
 			}
@@ -56,9 +56,9 @@
 					"numinlets" : 1,
 					"numoutlets" : 1,
 					"outlettype" : [ "signal" ],
-					"patching_rect" : [ 769.5, 263.0, 159.0, 22.0 ],
+					"patching_rect" : [ 769.5, 263.0, 169.0, 22.0 ],
 					"style" : "",
-					"text" : "detectionEnveloppe.maxpat"
+					"text" : "detectionEnveloppe.maxpat 8"
 				}
 
 			}
@@ -82,9 +82,9 @@
 					"numinlets" : 1,
 					"numoutlets" : 1,
 					"outlettype" : [ "signal" ],
-					"patching_rect" : [ 493.5, 268.0, 159.0, 22.0 ],
+					"patching_rect" : [ 562.5, 236.0, 169.0, 22.0 ],
 					"style" : "",
-					"text" : "detectionEnveloppe.maxpat"
+					"text" : "detectionEnveloppe.maxpat 2"
 				}
 
 			}
@@ -130,9 +130,9 @@
 					"numinlets" : 1,
 					"numoutlets" : 1,
 					"outlettype" : [ "signal" ],
-					"patching_rect" : [ 1292.5, 181.0, 159.0, 22.0 ],
+					"patching_rect" : [ 1292.5, 181.0, 169.0, 22.0 ],
 					"style" : "",
-					"text" : "detectionEnveloppe.maxpat"
+					"text" : "detectionEnveloppe.maxpat 2"
 				}
 
 			}
@@ -235,7 +235,7 @@
 					"numoutlets" : 1,
 					"outlettype" : [ "int" ],
 					"parameter_enable" : 0,
-					"patching_rect" : [ 1185.0, 137.0, 24.0, 24.0 ],
+					"patching_rect" : [ 1230.0, 114.0, 24.0, 24.0 ],
 					"style" : ""
 				}
 
@@ -286,7 +286,7 @@
 					"numinlets" : 0,
 					"numoutlets" : 4,
 					"outlettype" : [ "int", "int", "int", "int" ],
-					"patching_rect" : [ 1130.5, 12.0, 86.0, 22.0 ],
+					"patching_rect" : [ 1116.0, 6.0, 86.0, 22.0 ],
 					"style" : "",
 					"text" : "receptionOSC"
 				}
@@ -298,7 +298,7 @@
 					"maxclass" : "ezdac~",
 					"numinlets" : 2,
 					"numoutlets" : 0,
-					"patching_rect" : [ 315.5, 423.5, 45.0, 45.0 ],
+					"patching_rect" : [ 315.5, 425.5, 45.0, 45.0 ],
 					"style" : ""
 				}
 
@@ -441,6 +441,69 @@
 			}
 , 			{
 				"patchline" : 				{
+					"destination" : [ "obj-12", 1 ],
+					"disabled" : 0,
+					"hidden" : 0,
+					"source" : [ "obj-4", 7 ]
+				}
+
+			}
+, 			{
+				"patchline" : 				{
+					"destination" : [ "obj-12", 0 ],
+					"disabled" : 0,
+					"hidden" : 0,
+					"source" : [ "obj-4", 6 ]
+				}
+
+			}
+, 			{
+				"patchline" : 				{
+					"destination" : [ "obj-12", 1 ],
+					"disabled" : 0,
+					"hidden" : 0,
+					"source" : [ "obj-4", 5 ]
+				}
+
+			}
+, 			{
+				"patchline" : 				{
+					"destination" : [ "obj-12", 0 ],
+					"disabled" : 0,
+					"hidden" : 0,
+					"source" : [ "obj-4", 4 ]
+				}
+
+			}
+, 			{
+				"patchline" : 				{
+					"destination" : [ "obj-12", 1 ],
+					"disabled" : 0,
+					"hidden" : 0,
+					"source" : [ "obj-4", 3 ]
+				}
+
+			}
+, 			{
+				"patchline" : 				{
+					"destination" : [ "obj-12", 0 ],
+					"disabled" : 0,
+					"hidden" : 0,
+					"source" : [ "obj-4", 2 ]
+				}
+
+			}
+, 			{
+				"patchline" : 				{
+					"destination" : [ "obj-12", 1 ],
+					"disabled" : 0,
+					"hidden" : 0,
+					"source" : [ "obj-4", 1 ]
+				}
+
+			}
+, 			{
+				"patchline" : 				{
 					"destination" : [ "obj-12", 0 ],
 					"disabled" : 0,
 					"hidden" : 0,
@@ -472,6 +535,15 @@
 					"disabled" : 0,
 					"hidden" : 0,
 					"source" : [ "obj-4", 2 ]
+				}
+
+			}
+, 			{
+				"patchline" : 				{
+					"destination" : [ "obj-7", 0 ],
+					"disabled" : 0,
+					"hidden" : 0,
+					"source" : [ "obj-4", 5 ]
 				}
 
 			}
@@ -567,13 +639,13 @@
 			}
  ],
 		"parameters" : 		{
-			"obj-2::obj-13" : [ "flonum", "flonum", 0 ],
 			"obj-5::obj-16" : [ "flonum[6]", "flonum[1]", 0 ],
+			"obj-7::obj-13" : [ "flonum[2]", "flonum", 0 ],
 			"obj-23::obj-13" : [ "flonum[5]", "flonum", 0 ],
-			"obj-7::obj-16" : [ "flonum[8]", "flonum[1]", 0 ],
-			"obj-2::obj-16" : [ "flonum[1]", "flonum[1]", 0 ],
-			"obj-23::obj-16" : [ "flonum[4]", "flonum[1]", 0 ],
-			"obj-7::obj-13" : [ "flonum[9]", "flonum", 0 ],
+			"obj-23::obj-16" : [ "flonum[8]", "flonum[1]", 0 ],
+			"obj-7::obj-16" : [ "flonum[1]", "flonum[1]", 0 ],
+			"obj-2::obj-13" : [ "flonum[4]", "flonum", 0 ],
+			"obj-2::obj-16" : [ "flonum[3]", "flonum[1]", 0 ],
 			"obj-5::obj-13" : [ "flonum[7]", "flonum", 0 ]
 		}
 ,
