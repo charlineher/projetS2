@@ -4,7 +4,7 @@
 		"appversion" : 		{
 			"major" : 7,
 			"minor" : 3,
-			"revision" : 3,
+			"revision" : 1,
 			"architecture" : "x86",
 			"modernui" : 1
 		}
@@ -44,7 +44,6 @@
 					"numoutlets" : 1,
 					"outlettype" : [ "signal" ],
 					"patching_rect" : [ 979.5, 263.0, 159.0, 22.0 ],
-					"presentation_rect" : [ 979.5, 265.0, 0.0, 0.0 ],
 					"style" : "",
 					"text" : "detectionEnveloppe.maxpat"
 				}
@@ -58,7 +57,6 @@
 					"numoutlets" : 1,
 					"outlettype" : [ "signal" ],
 					"patching_rect" : [ 769.5, 263.0, 159.0, 22.0 ],
-					"presentation_rect" : [ 769.5, 263.0, 0.0, 0.0 ],
 					"style" : "",
 					"text" : "detectionEnveloppe.maxpat"
 				}
@@ -311,9 +309,9 @@
 					"id" : "obj-3",
 					"maxclass" : "newobj",
 					"numinlets" : 0,
-					"numoutlets" : 4,
-					"outlettype" : [ "int", "int", "int", "int" ],
-					"patching_rect" : [ 429.5, 11.0, 86.0, 22.0 ],
+					"numoutlets" : 3,
+					"outlettype" : [ "int", "int", "int" ],
+					"patching_rect" : [ 493.5, 2.0, 86.0, 22.0 ],
 					"style" : "",
 					"text" : "receptionOSC"
 				}
@@ -327,32 +325,6 @@
 					"numoutlets" : 0,
 					"patching_rect" : [ 315.5, 423.5, 45.0, 45.0 ],
 					"style" : ""
-				}
-
-			}
-, 			{
-				"box" : 				{
-					"id" : "obj-20",
-					"maxclass" : "toggle",
-					"numinlets" : 1,
-					"numoutlets" : 1,
-					"outlettype" : [ "int" ],
-					"parameter_enable" : 0,
-					"patching_rect" : [ 259.0, 69.5, 24.0, 24.0 ],
-					"style" : ""
-				}
-
-			}
-, 			{
-				"box" : 				{
-					"id" : "obj-14",
-					"maxclass" : "newobj",
-					"numinlets" : 1,
-					"numoutlets" : 1,
-					"outlettype" : [ "jit_matrix" ],
-					"patching_rect" : [ 322.5, 181.0, 118.0, 22.0 ],
-					"style" : "",
-					"text" : "lectureVideo.maxpat"
 				}
 
 			}
@@ -413,15 +385,6 @@
 			}
 , 			{
 				"patchline" : 				{
-					"destination" : [ "obj-14", 0 ],
-					"disabled" : 0,
-					"hidden" : 0,
-					"source" : [ "obj-20", 0 ]
-				}
-
-			}
-, 			{
-				"patchline" : 				{
 					"destination" : [ "obj-1", 3 ],
 					"disabled" : 0,
 					"hidden" : 0,
@@ -434,7 +397,6 @@
 					"destination" : [ "obj-25", 1 ],
 					"disabled" : 0,
 					"hidden" : 0,
-					"order" : 0,
 					"source" : [ "obj-23", 0 ]
 				}
 
@@ -444,7 +406,6 @@
 					"destination" : [ "obj-25", 0 ],
 					"disabled" : 0,
 					"hidden" : 0,
-					"order" : 1,
 					"source" : [ "obj-23", 0 ]
 				}
 
@@ -454,17 +415,34 @@
 					"destination" : [ "obj-80", 0 ],
 					"disabled" : 0,
 					"hidden" : 0,
-					"order" : 2,
 					"source" : [ "obj-23", 0 ]
 				}
 
 			}
 , 			{
 				"patchline" : 				{
-					"destination" : [ "obj-20", 0 ],
+					"destination" : [ "obj-17", 0 ],
 					"disabled" : 0,
 					"hidden" : 0,
 					"source" : [ "obj-3", 0 ]
+				}
+
+			}
+, 			{
+				"patchline" : 				{
+					"destination" : [ "obj-39", 0 ],
+					"disabled" : 0,
+					"hidden" : 0,
+					"source" : [ "obj-3", 1 ]
+				}
+
+			}
+, 			{
+				"patchline" : 				{
+					"destination" : [ "obj-41", 0 ],
+					"disabled" : 0,
+					"hidden" : 0,
+					"source" : [ "obj-3", 2 ]
 				}
 
 			}
@@ -482,7 +460,6 @@
 					"destination" : [ "obj-12", 0 ],
 					"disabled" : 0,
 					"hidden" : 0,
-					"order" : 1,
 					"source" : [ "obj-4", 0 ]
 				}
 
@@ -492,7 +469,6 @@
 					"destination" : [ "obj-2", 0 ],
 					"disabled" : 0,
 					"hidden" : 0,
-					"order" : 0,
 					"source" : [ "obj-4", 0 ]
 				}
 
@@ -616,25 +592,19 @@
 			}
  ],
 		"parameters" : 		{
-			"obj-7::obj-13" : [ "flonum[9]", "flonum", 0 ],
-			"obj-8::obj-16" : [ "flonum[2]", "flonum[1]", 0 ],
-			"obj-5::obj-16" : [ "flonum[6]", "flonum[1]", 0 ],
-			"obj-7::obj-16" : [ "flonum[8]", "flonum[1]", 0 ],
-			"obj-8::obj-13" : [ "flonum[3]", "flonum", 0 ],
-			"obj-23::obj-16" : [ "flonum[4]", "flonum[1]", 0 ],
-			"obj-5::obj-13" : [ "flonum[7]", "flonum", 0 ],
 			"obj-2::obj-13" : [ "flonum", "flonum", 0 ],
+			"obj-5::obj-16" : [ "flonum[6]", "flonum[1]", 0 ],
+			"obj-8::obj-16" : [ "flonum[2]", "flonum[1]", 0 ],
+			"obj-23::obj-13" : [ "flonum[5]", "flonum", 0 ],
+			"obj-7::obj-16" : [ "flonum[8]", "flonum[1]", 0 ],
 			"obj-2::obj-16" : [ "flonum[1]", "flonum[1]", 0 ],
-			"obj-23::obj-13" : [ "flonum[5]", "flonum", 0 ]
+			"obj-23::obj-16" : [ "flonum[4]", "flonum[1]", 0 ],
+			"obj-8::obj-13" : [ "flonum[3]", "flonum", 0 ],
+			"obj-7::obj-13" : [ "flonum[9]", "flonum", 0 ],
+			"obj-5::obj-13" : [ "flonum[7]", "flonum", 0 ]
 		}
 ,
 		"dependency_cache" : [ 			{
-				"name" : "lectureVideo.maxpat",
-				"bootpath" : "~/Documents/projetS2/votreAppli/regieVideo/patchers",
-				"type" : "JSON",
-				"implicit" : 1
-			}
-, 			{
 				"name" : "receptionOSC.maxpat",
 				"bootpath" : "~/Documents/projetS2/votreAppli/regieVideo/patchers",
 				"type" : "JSON",
@@ -642,6 +612,12 @@
 			}
 , 			{
 				"name" : "detectionEnveloppe.maxpat",
+				"bootpath" : "~/Documents/projetS2/votreAppli/regieVideo/patchers",
+				"type" : "JSON",
+				"implicit" : 1
+			}
+, 			{
+				"name" : "lectureVideo.maxpat",
 				"bootpath" : "~/Documents/projetS2/votreAppli/regieVideo/patchers",
 				"type" : "JSON",
 				"implicit" : 1
