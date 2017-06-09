@@ -196,9 +196,9 @@
 					"numinlets" : 2,
 					"numoutlets" : 1,
 					"outlettype" : [ "" ],
-					"patching_rect" : [ 161.0, 266.0, 232.0, 22.0 ],
+					"patching_rect" : [ 161.0, 266.0, 262.0, 22.0 ],
 					"style" : "",
-					"text" : "jit.net.send @ip 192.168.0.32 @port 7500"
+					"text" : "jit.net.send @ip 192.168.0.32 @port #1"
 				}
 
 			}
