@@ -4,12 +4,12 @@
 		"appversion" : 		{
 			"major" : 7,
 			"minor" : 3,
-			"revision" : 1,
+			"revision" : 3,
 			"architecture" : "x86",
 			"modernui" : 1
 		}
 ,
-		"rect" : [ 327.0, 145.0, 640.0, 480.0 ],
+		"rect" : [ 327.0, 145.0, 1050.0, 480.0 ],
 		"bglocked" : 0,
 		"openinpresentation" : 0,
 		"default_fontsize" : 12.0,
@@ -64,6 +64,7 @@
 				"box" : 				{
 					"comment" : "",
 					"id" : "obj-21",
+					"index" : 2,
 					"maxclass" : "outlet",
 					"numinlets" : 1,
 					"numoutlets" : 0,
@@ -76,6 +77,7 @@
 				"box" : 				{
 					"comment" : "",
 					"id" : "obj-22",
+					"index" : 1,
 					"maxclass" : "outlet",
 					"numinlets" : 1,
 					"numoutlets" : 0,
@@ -142,6 +144,7 @@
 				"box" : 				{
 					"comment" : "",
 					"id" : "obj-15",
+					"index" : 8,
 					"maxclass" : "outlet",
 					"numinlets" : 1,
 					"numoutlets" : 0,
@@ -154,6 +157,7 @@
 				"box" : 				{
 					"comment" : "",
 					"id" : "obj-16",
+					"index" : 7,
 					"maxclass" : "outlet",
 					"numinlets" : 1,
 					"numoutlets" : 0,
@@ -188,7 +192,7 @@
 					"outlettype" : [ "jit_matrix", "", "" ],
 					"patching_rect" : [ 582.0, 143.0, 131.0, 22.0 ],
 					"style" : "",
-					"text" : "jit.net.recv @port 7500"
+					"text" : "jit.net.recv @port 7503"
 				}
 
 			}
@@ -220,6 +224,7 @@
 				"box" : 				{
 					"comment" : "",
 					"id" : "obj-7",
+					"index" : 6,
 					"maxclass" : "outlet",
 					"numinlets" : 1,
 					"numoutlets" : 0,
@@ -232,6 +237,7 @@
 				"box" : 				{
 					"comment" : "",
 					"id" : "obj-8",
+					"index" : 5,
 					"maxclass" : "outlet",
 					"numinlets" : 1,
 					"numoutlets" : 0,
@@ -266,7 +272,7 @@
 					"outlettype" : [ "jit_matrix", "", "" ],
 					"patching_rect" : [ 432.0, 143.0, 131.0, 22.0 ],
 					"style" : "",
-					"text" : "jit.net.recv @port 7500"
+					"text" : "jit.net.recv @port 7502"
 				}
 
 			}
@@ -298,6 +304,7 @@
 				"box" : 				{
 					"comment" : "",
 					"id" : "obj-2",
+					"index" : 4,
 					"maxclass" : "outlet",
 					"numinlets" : 1,
 					"numoutlets" : 0,
@@ -310,6 +317,7 @@
 				"box" : 				{
 					"comment" : "",
 					"id" : "obj-1",
+					"index" : 3,
 					"maxclass" : "outlet",
 					"numinlets" : 1,
 					"numoutlets" : 0,
@@ -344,7 +352,7 @@
 					"outlettype" : [ "jit_matrix", "", "" ],
 					"patching_rect" : [ 239.0, 143.0, 131.0, 22.0 ],
 					"style" : "",
-					"text" : "jit.net.recv @port 7500"
+					"text" : "jit.net.recv @port 7501"
 				}
 
 			}

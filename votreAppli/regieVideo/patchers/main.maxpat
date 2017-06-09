@@ -4,12 +4,12 @@
 		"appversion" : 		{
 			"major" : 7,
 			"minor" : 3,
-			"revision" : 1,
+			"revision" : 3,
 			"architecture" : "x86",
 			"modernui" : 1
 		}
 ,
-		"rect" : [ 121.0, 79.0, 1490.0, 857.0 ],
+		"rect" : [ 34.0, 79.0, 1612.0, 857.0 ],
 		"bglocked" : 0,
 		"openinpresentation" : 0,
 		"default_fontsize" : 12.0,
@@ -38,14 +38,15 @@
 		"subpatcher_template" : "",
 		"boxes" : [ 			{
 				"box" : 				{
-					"id" : "obj-16",
+					"id" : "obj-7",
 					"maxclass" : "newobj",
-					"numinlets" : 0,
-					"numoutlets" : 8,
-					"outlettype" : [ "signal", "signal", "signal", "signal", "signal", "signal", "signal", "signal" ],
-					"patching_rect" : [ 250.0, 507.0, 162.0, 22.0 ],
+					"numinlets" : 1,
+					"numoutlets" : 1,
+					"outlettype" : [ "signal" ],
+					"patching_rect" : [ 979.5, 263.0, 159.0, 22.0 ],
+					"presentation_rect" : [ 979.5, 265.0, 0.0, 0.0 ],
 					"style" : "",
-					"text" : "receptionAudioReseau 7500"
+					"text" : "detectionEnveloppe.maxpat"
 				}
 
 			}
@@ -53,12 +54,13 @@
 				"box" : 				{
 					"id" : "obj-5",
 					"maxclass" : "newobj",
-					"numinlets" : 0,
-					"numoutlets" : 8,
-					"outlettype" : [ "signal", "signal", "signal", "signal", "signal", "signal", "signal", "signal" ],
-					"patching_rect" : [ 250.0, 456.0, 162.0, 22.0 ],
+					"numinlets" : 1,
+					"numoutlets" : 1,
+					"outlettype" : [ "signal" ],
+					"patching_rect" : [ 769.5, 263.0, 159.0, 22.0 ],
+					"presentation_rect" : [ 769.5, 263.0, 0.0, 0.0 ],
 					"style" : "",
-					"text" : "receptionAudioReseau 7500"
+					"text" : "detectionEnveloppe.maxpat"
 				}
 
 			}
@@ -69,9 +71,9 @@
 					"numinlets" : 0,
 					"numoutlets" : 8,
 					"outlettype" : [ "signal", "signal", "signal", "signal", "signal", "signal", "signal", "signal" ],
-					"patching_rect" : [ 246.0, 404.0, 162.0, 22.0 ],
+					"patching_rect" : [ 603.0, 29.0, 193.0, 22.0 ],
 					"style" : "",
-					"text" : "receptionAudioReseau 7500"
+					"text" : "receptionAudioReseau"
 				}
 
 			}
@@ -82,7 +84,7 @@
 					"numinlets" : 1,
 					"numoutlets" : 1,
 					"outlettype" : [ "signal" ],
-					"patching_rect" : [ 264.5, 314.5, 159.0, 22.0 ],
+					"patching_rect" : [ 493.5, 268.0, 159.0, 22.0 ],
 					"style" : "",
 					"text" : "detectionEnveloppe.maxpat"
 				}
@@ -133,45 +135,6 @@
 					"patching_rect" : [ 1292.5, 181.0, 159.0, 22.0 ],
 					"style" : "",
 					"text" : "detectionEnveloppe.maxpat"
-				}
-
-			}
-, 			{
-				"box" : 				{
-					"data" : 					{
-						"clips" : [ 							{
-								"filename" : "anton.aif",
-								"filekind" : "audiofile",
-								"loop" : 0,
-								"content_state" : 								{
-									"originallength" : [ 0.0, "ticks" ],
-									"followglobaltempo" : [ 0 ],
-									"mode" : [ "basic" ],
-									"formant" : [ 1.0 ],
-									"timestretch" : [ 0 ],
-									"quality" : [ "basic" ],
-									"play" : [ 0 ],
-									"formantcorrection" : [ 0 ],
-									"basictuning" : [ 440 ],
-									"speed" : [ 1.0 ],
-									"originaltempo" : [ 120.0 ],
-									"pitchcorrection" : [ 0 ],
-									"pitchshift" : [ 1.0 ],
-									"slurtime" : [ 0.0 ],
-									"originallengthms" : [ 0.0 ]
-								}
-
-							}
- ]
-					}
-,
-					"id" : "obj-22",
-					"maxclass" : "playlist~",
-					"numinlets" : 1,
-					"numoutlets" : 5,
-					"outlettype" : [ "signal", "signal", "signal", "", "dictionary" ],
-					"patching_rect" : [ 1262.0, 123.0, 150.0, 30.0 ],
-					"style" : ""
 				}
 
 			}
@@ -300,7 +263,7 @@
 					"numoutlets" : 1,
 					"outlettype" : [ "int" ],
 					"parameter_enable" : 0,
-					"patching_rect" : [ 841.0, 33.0, 24.0, 24.0 ],
+					"patching_rect" : [ 739.0, 141.0, 24.0, 24.0 ],
 					"style" : ""
 				}
 
@@ -312,7 +275,7 @@
 					"numinlets" : 1,
 					"numoutlets" : 1,
 					"outlettype" : [ "jit_matrix" ],
-					"patching_rect" : [ 780.0, 105.0, 176.0, 22.0 ],
+					"patching_rect" : [ 735.0, 190.0, 176.0, 22.0 ],
 					"style" : "",
 					"text" : "lectureVideo.maxpat coeur.png"
 				}
@@ -332,17 +295,6 @@
 			}
 , 			{
 				"box" : 				{
-					"id" : "obj-7",
-					"maxclass" : "ezdac~",
-					"numinlets" : 2,
-					"numoutlets" : 0,
-					"patching_rect" : [ 202.0, 178.5, 45.0, 45.0 ],
-					"style" : ""
-				}
-
-			}
-, 			{
-				"box" : 				{
 					"id" : "obj-8",
 					"maxclass" : "newobj",
 					"numinlets" : 1,
@@ -351,45 +303,6 @@
 					"patching_rect" : [ 24.5, 198.0, 159.0, 22.0 ],
 					"style" : "",
 					"text" : "detectionEnveloppe.maxpat"
-				}
-
-			}
-, 			{
-				"box" : 				{
-					"data" : 					{
-						"clips" : [ 							{
-								"filename" : "Sans titre:/Users/i162512/Downloads/147.mp3",
-								"filekind" : "audiofile",
-								"loop" : 1,
-								"content_state" : 								{
-									"originallength" : [ 0.0, "ticks" ],
-									"followglobaltempo" : [ 0 ],
-									"mode" : [ "basic" ],
-									"formant" : [ 1.0 ],
-									"timestretch" : [ 0 ],
-									"quality" : [ "basic" ],
-									"play" : [ 0 ],
-									"formantcorrection" : [ 0 ],
-									"basictuning" : [ 440 ],
-									"speed" : [ 1.0 ],
-									"originaltempo" : [ 120.0 ],
-									"pitchcorrection" : [ 0 ],
-									"pitchshift" : [ 1.0 ],
-									"slurtime" : [ 0.0 ],
-									"originallengthms" : [ 0.0 ]
-								}
-
-							}
- ]
-					}
-,
-					"id" : "obj-9",
-					"maxclass" : "playlist~",
-					"numinlets" : 1,
-					"numoutlets" : 5,
-					"outlettype" : [ "signal", "signal", "signal", "", "dictionary" ],
-					"patching_rect" : [ 97.0, 123.0, 150.0, 30.0 ],
-					"style" : ""
 				}
 
 			}
@@ -412,21 +325,8 @@
 					"maxclass" : "ezdac~",
 					"numinlets" : 2,
 					"numoutlets" : 0,
-					"patching_rect" : [ 138.5, 329.0, 45.0, 45.0 ],
+					"patching_rect" : [ 315.5, 423.5, 45.0, 45.0 ],
 					"style" : ""
-				}
-
-			}
-, 			{
-				"box" : 				{
-					"id" : "obj-13",
-					"maxclass" : "newobj",
-					"numinlets" : 0,
-					"numoutlets" : 8,
-					"outlettype" : [ "signal", "signal", "signal", "signal", "signal", "signal", "signal", "signal" ],
-					"patching_rect" : [ 234.0, 268.0, 132.0, 22.0 ],
-					"style" : "",
-					"text" : "receptionAudioReseau"
 				}
 
 			}
@@ -486,33 +386,6 @@
 			}
 , 			{
 				"patchline" : 				{
-					"destination" : [ "obj-12", 1 ],
-					"disabled" : 0,
-					"hidden" : 0,
-					"source" : [ "obj-13", 2 ]
-				}
-
-			}
-, 			{
-				"patchline" : 				{
-					"destination" : [ "obj-12", 0 ],
-					"disabled" : 0,
-					"hidden" : 0,
-					"source" : [ "obj-13", 2 ]
-				}
-
-			}
-, 			{
-				"patchline" : 				{
-					"destination" : [ "obj-2", 0 ],
-					"disabled" : 0,
-					"hidden" : 0,
-					"source" : [ "obj-13", 2 ]
-				}
-
-			}
-, 			{
-				"patchline" : 				{
 					"destination" : [ "obj-50", 3 ],
 					"disabled" : 0,
 					"hidden" : 0,
@@ -558,18 +431,10 @@
 			}
 , 			{
 				"patchline" : 				{
-					"destination" : [ "obj-23", 0 ],
-					"disabled" : 0,
-					"hidden" : 0,
-					"source" : [ "obj-22", 0 ]
-				}
-
-			}
-, 			{
-				"patchline" : 				{
 					"destination" : [ "obj-25", 1 ],
 					"disabled" : 0,
 					"hidden" : 0,
+					"order" : 0,
 					"source" : [ "obj-23", 0 ]
 				}
 
@@ -579,6 +444,7 @@
 					"destination" : [ "obj-25", 0 ],
 					"disabled" : 0,
 					"hidden" : 0,
+					"order" : 1,
 					"source" : [ "obj-23", 0 ]
 				}
 
@@ -588,6 +454,7 @@
 					"destination" : [ "obj-80", 0 ],
 					"disabled" : 0,
 					"hidden" : 0,
+					"order" : 2,
 					"source" : [ "obj-23", 0 ]
 				}
 
@@ -612,10 +479,66 @@
 			}
 , 			{
 				"patchline" : 				{
+					"destination" : [ "obj-12", 0 ],
+					"disabled" : 0,
+					"hidden" : 0,
+					"order" : 1,
+					"source" : [ "obj-4", 0 ]
+				}
+
+			}
+, 			{
+				"patchline" : 				{
+					"destination" : [ "obj-2", 0 ],
+					"disabled" : 0,
+					"hidden" : 0,
+					"order" : 0,
+					"source" : [ "obj-4", 0 ]
+				}
+
+			}
+, 			{
+				"patchline" : 				{
+					"destination" : [ "obj-23", 0 ],
+					"disabled" : 0,
+					"hidden" : 0,
+					"source" : [ "obj-4", 6 ]
+				}
+
+			}
+, 			{
+				"patchline" : 				{
+					"destination" : [ "obj-5", 0 ],
+					"disabled" : 0,
+					"hidden" : 0,
+					"source" : [ "obj-4", 2 ]
+				}
+
+			}
+, 			{
+				"patchline" : 				{
+					"destination" : [ "obj-7", 0 ],
+					"disabled" : 0,
+					"hidden" : 0,
+					"source" : [ "obj-4", 4 ]
+				}
+
+			}
+, 			{
+				"patchline" : 				{
 					"destination" : [ "obj-11", 0 ],
 					"disabled" : 0,
 					"hidden" : 0,
 					"source" : [ "obj-41", 0 ]
+				}
+
+			}
+, 			{
+				"patchline" : 				{
+					"destination" : [ "obj-50", 2 ],
+					"disabled" : 0,
+					"hidden" : 0,
+					"source" : [ "obj-5", 0 ]
 				}
 
 			}
@@ -643,6 +566,15 @@
 					"disabled" : 0,
 					"hidden" : 0,
 					"source" : [ "obj-50", 0 ]
+				}
+
+			}
+, 			{
+				"patchline" : 				{
+					"destination" : [ "obj-50", 4 ],
+					"disabled" : 0,
+					"hidden" : 0,
+					"source" : [ "obj-7", 0 ]
 				}
 
 			}
@@ -682,41 +614,18 @@
 				}
 
 			}
-, 			{
-				"patchline" : 				{
-					"destination" : [ "obj-7", 1 ],
-					"disabled" : 0,
-					"hidden" : 0,
-					"source" : [ "obj-9", 0 ]
-				}
-
-			}
-, 			{
-				"patchline" : 				{
-					"destination" : [ "obj-7", 0 ],
-					"disabled" : 0,
-					"hidden" : 0,
-					"source" : [ "obj-9", 0 ]
-				}
-
-			}
-, 			{
-				"patchline" : 				{
-					"destination" : [ "obj-8", 0 ],
-					"disabled" : 0,
-					"hidden" : 0,
-					"source" : [ "obj-9", 0 ]
-				}
-
-			}
  ],
 		"parameters" : 		{
-			"obj-8::obj-13" : [ "flonum[3]", "flonum", 0 ],
-			"obj-23::obj-13" : [ "flonum[5]", "flonum", 0 ],
-			"obj-2::obj-16" : [ "flonum[1]", "flonum[1]", 0 ],
-			"obj-2::obj-13" : [ "flonum", "flonum", 0 ],
+			"obj-7::obj-13" : [ "flonum[9]", "flonum", 0 ],
 			"obj-8::obj-16" : [ "flonum[2]", "flonum[1]", 0 ],
-			"obj-23::obj-16" : [ "flonum[4]", "flonum[1]", 0 ]
+			"obj-5::obj-16" : [ "flonum[6]", "flonum[1]", 0 ],
+			"obj-7::obj-16" : [ "flonum[8]", "flonum[1]", 0 ],
+			"obj-8::obj-13" : [ "flonum[3]", "flonum", 0 ],
+			"obj-23::obj-16" : [ "flonum[4]", "flonum[1]", 0 ],
+			"obj-5::obj-13" : [ "flonum[7]", "flonum", 0 ],
+			"obj-2::obj-13" : [ "flonum", "flonum", 0 ],
+			"obj-2::obj-16" : [ "flonum[1]", "flonum[1]", 0 ],
+			"obj-23::obj-13" : [ "flonum[5]", "flonum", 0 ]
 		}
 ,
 		"dependency_cache" : [ 			{
@@ -726,21 +635,9 @@
 				"implicit" : 1
 			}
 , 			{
-				"name" : "receptionAudioReseau.maxpat",
-				"bootpath" : "~/Documents/projetS2/votreAppli/regieVideo/patchers",
-				"type" : "JSON",
-				"implicit" : 1
-			}
-, 			{
 				"name" : "receptionOSC.maxpat",
 				"bootpath" : "~/Documents/projetS2/votreAppli/regieVideo/patchers",
 				"type" : "JSON",
-				"implicit" : 1
-			}
-, 			{
-				"name" : "147.mp3",
-				"bootpath" : "~/Downloads",
-				"type" : "Mp3 ",
 				"implicit" : 1
 			}
 , 			{
@@ -756,13 +653,13 @@
 				"implicit" : 1
 			}
 , 			{
-				"name" : "anton.aif",
-				"bootpath" : "~/Documents/projetS2/votreAppli/regieVideo/media",
-				"type" : "AIFF",
+				"name" : "assemblage.maxpat",
+				"bootpath" : "~/Documents/projetS2/votreAppli/regieVideo/patchers",
+				"type" : "JSON",
 				"implicit" : 1
 			}
 , 			{
-				"name" : "assemblage.maxpat",
+				"name" : "receptionAudioReseau.maxpat",
 				"bootpath" : "~/Documents/projetS2/votreAppli/regieVideo/patchers",
 				"type" : "JSON",
 				"implicit" : 1
