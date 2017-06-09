@@ -3,9 +3,9 @@
 		"fileversion" : 1,
 		"appversion" : 		{
 			"major" : 7,
-			"minor" : 2,
-			"revision" : 4,
-			"architecture" : "x64",
+			"minor" : 3,
+			"revision" : 1,
+			"architecture" : "x86",
 			"modernui" : 1
 		}
 ,
@@ -37,6 +37,19 @@
 		"style" : "",
 		"subpatcher_template" : "",
 		"boxes" : [ 			{
+				"box" : 				{
+					"id" : "obj-3",
+					"maxclass" : "newobj",
+					"numinlets" : 2,
+					"numoutlets" : 1,
+					"outlettype" : [ "signal" ],
+					"patching_rect" : [ 282.0, 399.0, 39.0, 22.0 ],
+					"style" : "",
+					"text" : "*~ #1"
+				}
+
+			}
+, 			{
 				"box" : 				{
 					"comment" : "",
 					"id" : "obj-2",
@@ -201,7 +214,7 @@
 					"patching_rect" : [ 454.0, 90.884056, 74.0, 22.0 ],
 					"saved_attribute_attributes" : 					{
 						"valueof" : 						{
-							"parameter_longname" : "flonum[1]",
+							"parameter_longname" : "flonum[6]",
 							"parameter_shortname" : "flonum[1]",
 							"parameter_type" : 3,
 							"parameter_initial_enable" : 1,
@@ -228,7 +241,7 @@
 					"patching_rect" : [ 375.0, 90.884056, 74.0, 22.0 ],
 					"saved_attribute_attributes" : 					{
 						"valueof" : 						{
-							"parameter_longname" : "flonum",
+							"parameter_longname" : "flonum[7]",
 							"parameter_shortname" : "flonum",
 							"parameter_type" : 3,
 							"parameter_initial_enable" : 1,
@@ -332,7 +345,7 @@
 			}
 , 			{
 				"patchline" : 				{
-					"destination" : [ "obj-2", 0 ],
+					"destination" : [ "obj-3", 0 ],
 					"disabled" : 0,
 					"hidden" : 0,
 					"source" : [ "obj-20", 0 ]
@@ -341,10 +354,19 @@
 			}
 , 			{
 				"patchline" : 				{
+					"destination" : [ "obj-2", 0 ],
+					"disabled" : 0,
+					"hidden" : 0,
+					"source" : [ "obj-3", 0 ]
+				}
+
+			}
+, 			{
+				"patchline" : 				{
 					"destination" : [ "obj-5", 0 ],
 					"disabled" : 0,
 					"hidden" : 0,
-					"source" : [ "obj-20", 0 ]
+					"source" : [ "obj-3", 0 ]
 				}
 
 			}
