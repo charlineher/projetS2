@@ -4,12 +4,12 @@
 		"appversion" : 		{
 			"major" : 7,
 			"minor" : 3,
-			"revision" : 3,
+			"revision" : 1,
 			"architecture" : "x86",
 			"modernui" : 1
 		}
 ,
-		"rect" : [ 327.0, 145.0, 1050.0, 480.0 ],
+		"rect" : [ 365.0, 175.0, 1050.0, 480.0 ],
 		"bglocked" : 0,
 		"openinpresentation" : 0,
 		"default_fontsize" : 12.0,
@@ -64,7 +64,6 @@
 				"box" : 				{
 					"comment" : "",
 					"id" : "obj-21",
-					"index" : 2,
 					"maxclass" : "outlet",
 					"numinlets" : 1,
 					"numoutlets" : 0,
@@ -77,7 +76,6 @@
 				"box" : 				{
 					"comment" : "",
 					"id" : "obj-22",
-					"index" : 1,
 					"maxclass" : "outlet",
 					"numinlets" : 1,
 					"numoutlets" : 0,
@@ -112,7 +110,7 @@
 					"outlettype" : [ "jit_matrix", "", "" ],
 					"patching_rect" : [ 58.0, 143.0, 131.0, 22.0 ],
 					"style" : "",
-					"text" : "jit.net.recv @port 7500"
+					"text" : "jit.net.recv @port 7501"
 				}
 
 			}
@@ -144,7 +142,6 @@
 				"box" : 				{
 					"comment" : "",
 					"id" : "obj-15",
-					"index" : 8,
 					"maxclass" : "outlet",
 					"numinlets" : 1,
 					"numoutlets" : 0,
@@ -157,7 +154,6 @@
 				"box" : 				{
 					"comment" : "",
 					"id" : "obj-16",
-					"index" : 7,
 					"maxclass" : "outlet",
 					"numinlets" : 1,
 					"numoutlets" : 0,
@@ -224,7 +220,6 @@
 				"box" : 				{
 					"comment" : "",
 					"id" : "obj-7",
-					"index" : 6,
 					"maxclass" : "outlet",
 					"numinlets" : 1,
 					"numoutlets" : 0,
@@ -237,7 +232,6 @@
 				"box" : 				{
 					"comment" : "",
 					"id" : "obj-8",
-					"index" : 5,
 					"maxclass" : "outlet",
 					"numinlets" : 1,
 					"numoutlets" : 0,
@@ -304,7 +298,6 @@
 				"box" : 				{
 					"comment" : "",
 					"id" : "obj-2",
-					"index" : 4,
 					"maxclass" : "outlet",
 					"numinlets" : 1,
 					"numoutlets" : 0,
@@ -317,7 +310,6 @@
 				"box" : 				{
 					"comment" : "",
 					"id" : "obj-1",
-					"index" : 3,
 					"maxclass" : "outlet",
 					"numinlets" : 1,
 					"numoutlets" : 0,
@@ -352,7 +344,7 @@
 					"outlettype" : [ "jit_matrix", "", "" ],
 					"patching_rect" : [ 239.0, 143.0, 131.0, 22.0 ],
 					"style" : "",
-					"text" : "jit.net.recv @port 7501"
+					"text" : "jit.net.recv @port 7500"
 				}
 
 			}
