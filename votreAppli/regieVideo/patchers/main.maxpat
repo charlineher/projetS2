@@ -208,7 +208,7 @@
 					"numinlets" : 1,
 					"numoutlets" : 1,
 					"outlettype" : [ "jit_matrix" ],
-					"patching_rect" : [ 1097.0, 191.5, 171.0, 22.0 ],
+					"patching_rect" : [ 1067.0, 190.0, 171.0, 22.0 ],
 					"style" : "",
 					"text" : "lectureVideo.maxpat Porte.jpg"
 				}
@@ -281,37 +281,12 @@
 			}
 , 			{
 				"box" : 				{
-					"id" : "obj-6",
-					"maxclass" : "meter~",
-					"numinlets" : 1,
-					"numoutlets" : 1,
-					"outlettype" : [ "float" ],
-					"patching_rect" : [ -10.0, 283.5, 80.0, 13.0 ],
-					"style" : ""
-				}
-
-			}
-, 			{
-				"box" : 				{
-					"id" : "obj-8",
-					"maxclass" : "newobj",
-					"numinlets" : 1,
-					"numoutlets" : 1,
-					"outlettype" : [ "signal" ],
-					"patching_rect" : [ 24.5, 198.0, 159.0, 22.0 ],
-					"style" : "",
-					"text" : "detectionEnveloppe.maxpat"
-				}
-
-			}
-, 			{
-				"box" : 				{
 					"id" : "obj-3",
 					"maxclass" : "newobj",
 					"numinlets" : 0,
 					"numoutlets" : 3,
 					"outlettype" : [ "int", "int", "int" ],
-					"patching_rect" : [ 493.5, 2.0, 86.0, 22.0 ],
+					"patching_rect" : [ 1130.5, 12.0, 86.0, 22.0 ],
 					"style" : "",
 					"text" : "receptionOSC"
 				}
@@ -424,7 +399,7 @@
 					"destination" : [ "obj-17", 0 ],
 					"disabled" : 0,
 					"hidden" : 0,
-					"source" : [ "obj-3", 0 ]
+					"source" : [ "obj-3", 2 ]
 				}
 
 			}
@@ -433,7 +408,7 @@
 					"destination" : [ "obj-39", 0 ],
 					"disabled" : 0,
 					"hidden" : 0,
-					"source" : [ "obj-3", 1 ]
+					"source" : [ "obj-3", 0 ]
 				}
 
 			}
@@ -442,7 +417,7 @@
 					"destination" : [ "obj-41", 0 ],
 					"disabled" : 0,
 					"hidden" : 0,
-					"source" : [ "obj-3", 2 ]
+					"source" : [ "obj-3", 1 ]
 				}
 
 			}
@@ -574,15 +549,6 @@
 			}
 , 			{
 				"patchline" : 				{
-					"destination" : [ "obj-6", 0 ],
-					"disabled" : 0,
-					"hidden" : 0,
-					"source" : [ "obj-8", 0 ]
-				}
-
-			}
-, 			{
-				"patchline" : 				{
 					"destination" : [ "obj-79", 0 ],
 					"disabled" : 0,
 					"hidden" : 0,
@@ -594,24 +560,16 @@
 		"parameters" : 		{
 			"obj-2::obj-13" : [ "flonum", "flonum", 0 ],
 			"obj-5::obj-16" : [ "flonum[6]", "flonum[1]", 0 ],
-			"obj-8::obj-16" : [ "flonum[2]", "flonum[1]", 0 ],
 			"obj-23::obj-13" : [ "flonum[5]", "flonum", 0 ],
 			"obj-7::obj-16" : [ "flonum[8]", "flonum[1]", 0 ],
 			"obj-2::obj-16" : [ "flonum[1]", "flonum[1]", 0 ],
 			"obj-23::obj-16" : [ "flonum[4]", "flonum[1]", 0 ],
-			"obj-8::obj-13" : [ "flonum[3]", "flonum", 0 ],
 			"obj-7::obj-13" : [ "flonum[9]", "flonum", 0 ],
 			"obj-5::obj-13" : [ "flonum[7]", "flonum", 0 ]
 		}
 ,
 		"dependency_cache" : [ 			{
 				"name" : "receptionOSC.maxpat",
-				"bootpath" : "~/Documents/projetS2/votreAppli/regieVideo/patchers",
-				"type" : "JSON",
-				"implicit" : 1
-			}
-, 			{
-				"name" : "detectionEnveloppe.maxpat",
 				"bootpath" : "~/Documents/projetS2/votreAppli/regieVideo/patchers",
 				"type" : "JSON",
 				"implicit" : 1
@@ -624,6 +582,12 @@
 			}
 , 			{
 				"name" : "effetDeplacement.maxpat",
+				"bootpath" : "~/Documents/projetS2/votreAppli/regieVideo/patchers",
+				"type" : "JSON",
+				"implicit" : 1
+			}
+, 			{
+				"name" : "detectionEnveloppe.maxpat",
 				"bootpath" : "~/Documents/projetS2/votreAppli/regieVideo/patchers",
 				"type" : "JSON",
 				"implicit" : 1
