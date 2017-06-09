@@ -284,8 +284,8 @@
 					"id" : "obj-3",
 					"maxclass" : "newobj",
 					"numinlets" : 0,
-					"numoutlets" : 3,
-					"outlettype" : [ "int", "int", "int" ],
+					"numoutlets" : 4,
+					"outlettype" : [ "int", "int", "int", "int" ],
 					"patching_rect" : [ 1130.5, 12.0, 86.0, 22.0 ],
 					"style" : "",
 					"text" : "receptionOSC"
@@ -418,6 +418,15 @@
 					"disabled" : 0,
 					"hidden" : 0,
 					"source" : [ "obj-3", 1 ]
+				}
+
+			}
+, 			{
+				"patchline" : 				{
+					"destination" : [ "obj-78", 0 ],
+					"disabled" : 0,
+					"hidden" : 0,
+					"source" : [ "obj-3", 3 ]
 				}
 
 			}
